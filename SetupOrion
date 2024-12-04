@@ -1,16 +1,16 @@
 #!/bin/bash
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 versao() {
-echo -e "                                   \e[97mVersão do SetupOrion: \e[32mv. 2.6.0\e[0m                                  "
-echo -e "\e[32moriondesign.art.br/whatsapp1      \e[97m<----- Grupos no WhatsApp ----->     \e[32moriondesign.art.br/whatsapp2\e[0m"
+echo -e "                                   \e[97mVersão do SetupTeledoc: \e[32mv. 2.6.0\e[0m                                  "
+echo -e "\e[32mTeledoc.art.br/whatsapp1      \e[97m<----- Grupos no WhatsApp ----->     \e[32mTeledoc.art.br/whatsapp2\e[0m"
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Cores do Setup
@@ -23,13 +23,13 @@ vermelho="\e[91m"
 reset="\e[0m"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 menu_instalador="1"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 home_directory="$HOME"
@@ -41,7 +41,7 @@ dados() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Licença do Setup
@@ -54,8 +54,8 @@ direitos_setup() {
     echo -e "$amarelo=  $branco  disponíveis no mercado open source. Já deixo todos os créditos aos desenvolvedores de cada $amarelo  =\e[0m"
     echo -e "$amarelo=  $branco aplicação disponíveis aqui. Este Setup é licenciado sob a Licença MIT (MIT). Você pode usar, $amarelo =\e[0m"
     echo -e "$amarelo=  $branco  copiar, modificar, integrar, publicar, distribuir e/ou vender cópias dos produtos finais,  $amarelo  =\e[0m"
-    echo -e "$amarelo=  $branco   mas deve sempre declarar que OrionDesign (contato@oriondesign.art.br) é o autor original  $amarelo  =\e[0m"
-    echo -e "$amarelo=  $branco           destes códigos e atribuir um link para https://oriondesign.art.br/setup           $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco   mas deve sempre declarar que Teledoc (teledoc@teledocmedical.com) é o autor original  $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco           destes códigos e atribuir um link para https://teledocmedical.com/setup           $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -69,8 +69,8 @@ direitos_instalador() {
     echo -e "$amarelo=  $branco  disponíveis no mercado open source. Já deixo todos os créditos aos desenvolvedores de cada $amarelo  =\e[0m"
     echo -e "$amarelo=  $branco aplicação disponíveis aqui. Este Setup é licenciado sob a Licença MIT (MIT). Você pode usar, $amarelo =\e[0m"
     echo -e "$amarelo=  $branco  copiar, modificar, integrar, publicar, distribuir e/ou vender cópias dos produtos finais,  $amarelo  =\e[0m"
-    echo -e "$amarelo=  $branco   mas deve sempre declarar que OrionDesign (contato@oriondesign.art.br) é o autor original  $amarelo  =\e[0m"
-    echo -e "$amarelo=  $branco           destes códigos e atribuir um link para https://oriondesign.art.br/setup           $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco   mas deve sempre declarar que Teledoc (teledoc@teledocmedical.com) é o autor original  $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco           destes códigos e atribuir um link para https://teledocmedical.com/setup           $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -129,13 +129,13 @@ creditos_msg() {
     echo -e "$amarelo=           $branco Gostaria de contribuir para continuarmos o desenvolvimento deste projeto?            $amarelo=\e[0m"
     echo -e "$amarelo=                              $branco Você pode fazer uma doação via PIX:                               $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
-    echo -e "$amarelo=                                     $amarelo pix@oriondesign.art.br                                     $amarelo=\e[0m"
+    echo -e "$amarelo=                                     $amarelo pix@Teledoc.art.br                                     $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
     echo -e "$amarelo=          $branco Ou faça parte da nossa comunidade VIP no Discord e contribua com o projeto            $amarelo=\e[0m"
-    echo -e "$amarelo=                       $branco Nossa comunidade:$amarelo https://join.oriondesign.art.br                        $amarelo=\e[0m"
+    echo -e "$amarelo=                       $branco Nossa comunidade:$amarelo https://join.Teledoc.art.br                        $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
     echo -e "$amarelo=                                   $branco Nossos grupos no WhatsApp                                    $amarelo=\e[0m"
-    echo -e "$amarelo=      $amarelo https://oriondesign.art.br/whatsapp1 $branco<-- ou -->$amarelo https://oriondesign.art.br/whatsapp2      $amarelo=\e[0m"
+    echo -e "$amarelo=      $amarelo https://Teledoc.art.br/whatsapp1 $branco<-- ou -->$amarelo https://Teledoc.art.br/whatsapp2      $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -144,7 +144,7 @@ creditos_msg() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Mensagens gerais
@@ -272,7 +272,7 @@ nome_credenciais() {
     info_credenciais
 }
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Titulos
@@ -1479,7 +1479,7 @@ echo ""
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Defasados
@@ -1518,7 +1518,7 @@ nome_finalizado() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Menu de opções
@@ -1618,7 +1618,7 @@ menu_instalador_pg_2(){
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
@@ -1816,7 +1816,7 @@ criar_arquivo() {
     nome_credenciais
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
     #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-    read -p "Digite a Url do Portainer (ex: portainer.oriondesign.art.br): " PORTAINER_URL
+    read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
     echo ""
 
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1844,7 +1844,7 @@ verificar_campos() {
         nome_credenciais
         echo -e "\e[97mPasso$amarelo 1/3\e[0m"
         #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-        read -p "Digite a Url do Portainer (ex: portainer.oriondesign.art.br): " PORTAINER_URL
+        read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
         echo ""
     
         echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1864,7 +1864,7 @@ verificar_campos() {
         nome_credenciais
         echo -e "\e[97mPasso$amarelo 1/3\e[0m"
         #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-        read -p "Digite a Url do Portainer (ex: portainer.oriondesign.art.br): " PORTAINER_URL
+        read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
         echo ""
     
         echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1909,7 +1909,7 @@ verificar_token() {
                 atualizar_arquivo
             fi
 
-            $APP_ORION
+            $APP_Teledoc
 
             break
         else
@@ -1933,7 +1933,7 @@ verificar_token() {
                 nome_credenciais
                 echo -e "\e[97mPasso$amarelo 1/3\e[0m"
                 #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-                read -p "Digite a Url do Portainer (ex: portainer.oriondesign.art.br): " PORTAINER_URL
+                read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
                 echo ""
             
                 echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1976,7 +1976,7 @@ telemetria() {
   hora=$(date +"%H")
 
   ## Envia informação da Telemetria
-  curl "http://telemetria.oriondesign.art.br:3030/metry?ferramenta=$1&ip=$ip&data=$data&hora=$hora&status=$2" > /dev/null 2>&1
+  curl "http://telemetria.Teledoc.art.br:3030/metry?ferramenta=$1&ip=$ip&data=$data&hora=$hora&status=$2" > /dev/null 2>&1
   #if [ $? -eq 0 ]; then
   #  echo "1/1 - [ OK ] - Telemetria"
   #else
@@ -1985,7 +1985,7 @@ telemetria() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Verificadores
@@ -2336,7 +2336,7 @@ requisitar_outra_instalacao(){
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Pegar informações
@@ -2408,7 +2408,7 @@ pegar_link_s3() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Criadores de banco de dados Postgres
@@ -2561,7 +2561,7 @@ um novo banco de dados? (Y/N): " resposta
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Instalação das Ferramentas
@@ -2582,12 +2582,12 @@ preencha_as_info
 while true; do
 
 echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-echo -en "\e[33mDigite o endereço de Email (ex: contato@oriondesign.art.br): \e[0m" && read -r email_teste
+echo -en "\e[33mDigite o endereço de Email (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_teste
 echo ""
 
 echo -e "\e[97mPasso$amarelo 2/5\e[0m"
 echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-echo -en "\e[33mDigite o usuário de Email (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_teste
+echo -en "\e[33mDigite o usuário de Email (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_teste
 echo ""
 
 echo -e "\e[97mPasso$amarelo 3/5\e[0m"
@@ -2642,7 +2642,7 @@ sudo apt-get update > /dev/null 2>&1
 sudo apt-get install swaks -y > /dev/null 2>&1
 
 msg="Se você está lendo isso, o seu SMTP está funcionando =D.
-By: OrionDesign"
+By: Teledoc"
 
 if swaks --to "$email_teste" --from "$email_teste" --server "$host_teste" --port "$porta_teste" --auth LOGIN --auth-user "$user_teste" --auth-password "$senha_teste" --tls --body "$msg"; then
     sleep 2
@@ -2703,24 +2703,24 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Portainer (ex: portainer.oriondesign.art.br): \e[0m" && read -r url_portainer
+    echo -en "\e[33mDigite o Dominio para o Portainer (ex: portainer.Teledoc.art.br): \e[0m" && read -r url_portainer
     echo ""
 
     ## Pergunta o Nome do Servidor
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
     echo -e "$amarelo--> Não pode conter Espaços e/ou cartacteres especiais"
-    echo -en "\e[33mEscolha um nome para o seu servidor (ex: OrionDesign): \e[0m" && read -r nome_servidor
+    echo -en "\e[33mEscolha um nome para o seu servidor (ex: Teledoc): \e[0m" && read -r nome_servidor
     echo ""
     
     ## Pergunta o nome da Rede Interna
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
     echo -e "$amarelo--> Não pode conter Espaços e/ou cartacteres especiais."
-    echo -en "\e[33mDigite um nome para sua rede interna (ex: OrionNet): \e[0m" && read -r nome_rede_interna
+    echo -en "\e[33mDigite um nome para sua rede interna (ex: TeledocNet): \e[0m" && read -r nome_rede_interna
     echo ""
     
     ## Pergunta o Email para informações sobre o certificado
     echo -e "\e[97mPasso$amarelo 4/4\e[0m"
-    echo -en "\e[33mDigite um endereço de Email válido (ex: contato@oriondesign.art.br): \e[0m" && read -r email_ssl
+    echo -en "\e[33mDigite um endereço de Email válido (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_ssl
     echo ""
 
     ## Limpa o termianl
@@ -2808,7 +2808,7 @@ cat > dados_vps << EOL
 [DADOS DA VPS]
 
 Estes dados foram preenchidos na hora que você foi instalar o Traefik e Portainer e
-serão utilizados para realizar as instalações no do SetupOrion v.2
+serão utilizados para realizar as instalações no do SetupTeledoc v.2
 
 Nome do Servidor: $nome_servidor
 
@@ -2821,7 +2821,7 @@ Link do Portainer: $url_portainer
 Obrigado por utilizar nosso AutoInstalador.
 Caso esse conteudo foi util, não deixe de apoiar nosso projeto.
 
-pix@oriondesign.art.br
+pix@Teledoc.art.br
 
 Bebam água!
 EOL
@@ -2988,7 +2988,7 @@ cat > traefik.yaml << EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   traefik:
     image: traefik:v2.11.2
@@ -3042,7 +3042,7 @@ services:
         - "traefik.http.routers.http-catchall.middlewares=redirect-https@docker"
         - "traefik.http.routers.http-catchall.priority=1"
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   vol_shared:
@@ -3103,7 +3103,7 @@ cat > portainer.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   agent:
     image: portainer/agent:latest ## Versão Agent do Portainer
@@ -3120,7 +3120,7 @@ services:
       placement:
         constraints: [node.platform.os == linux]
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   portainer:
     image: portainer/portainer-ce:latest ## Versão do Portainer
@@ -3148,7 +3148,7 @@ services:
         - "traefik.http.routers.portainer.entrypoints=websecure"
         - "traefik.http.routers.portainer.priority=1"
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   portainer_data:
@@ -3257,7 +3257,7 @@ cat > postgres.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   postgres:
     image: postgres:14 ## Versão do postgres
@@ -3288,7 +3288,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   postgres_data:
@@ -3383,7 +3383,7 @@ cat > postgres${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   postgres${1:+_$1}:
     image: postgres:14 ## Versão do postgres
@@ -3414,7 +3414,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   postgres${1:+_$1}_data:
@@ -3516,7 +3516,7 @@ cat > pgvector.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   pgvector:
     image: pgvector/pgvector:pg16 ## Versão do PgVector
@@ -3549,7 +3549,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   pgvector:
@@ -3644,7 +3644,7 @@ cat > pgvector${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   pgvector${1:+_$1}:
     image: pgvector/pgvector:pg16 ## Versão do PgVector
@@ -3677,7 +3677,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   pgvector${1:+_$1}:
@@ -3778,7 +3778,7 @@ cat > redis.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   redis:
     image: redis:latest  ## Versão do Redis
@@ -3809,7 +3809,7 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   redis_data:
@@ -3900,7 +3900,7 @@ cat > redis${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   redis${1:+_$1}:
     image: redis:latest  ## Versão do Redis
@@ -3931,7 +3931,7 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   redis${1:+_$1}_data:
@@ -4037,7 +4037,7 @@ cat > mysql.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mysql:
     image: percona/percona-server:8.0 ## Versão do MySQL
@@ -4076,7 +4076,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   mysql_data:
@@ -4173,7 +4173,7 @@ cat > mysql${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mysql${1:+_$1}:
     image: percona/percona-server:8.0 ## Versão do MySQL
@@ -4212,7 +4212,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   mysql${1:+_$1}_data:
@@ -4315,7 +4315,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.oriondesign.art.br): \e[0m" && read -r url_chatwoot
+    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot
     echo ""
     
     ## Pega o nome do dominio para ser o nome da empresa
@@ -4323,7 +4323,7 @@ while true; do
     
     ## Pergunta o email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_admin_chatwoot
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_admin_chatwoot
     echo ""
 
     ## Define o dominio SMTP com o dominio do email
@@ -4332,7 +4332,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_chatwoot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_chatwoot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -4493,7 +4493,7 @@ cat > chatwoot${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   chatwoot${1:+_$1}_app:
     image: chatwoot/chatwoot:latest ## Versão do Chatwoot
@@ -4511,7 +4511,7 @@ services:
     
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      - CHATWOOT_HUB_URL=https://teledocmedical.com/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -4600,7 +4600,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot${1:+_$1}_app.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   chatwoot${1:+_$1}_sidekiq:
     image: chatwoot/chatwoot:latest ## Versão do Chatwoot
@@ -4617,7 +4617,7 @@ services:
 
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      - CHATWOOT_HUB_URL=https://teledocmedical.com/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -4695,7 +4695,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   chatwoot${1:+_$1}_storage:
@@ -4874,7 +4874,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.oriondesign.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -4985,7 +4985,7 @@ cat > evolution${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   evolution${1:+_$1}:
     image: atendai/evolution-api:latest ## Versão da Evolution API
@@ -5008,7 +5008,7 @@ services:
       ## Configuração do Cliente
       ## Pegue a versão em: https://wppconnect.io/pt-BR/whatsapp-versions/
       - CONFIG_SESSION_PHONE_VERSION=2.3000.1015901307
-      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
+      - CONFIG_SESSION_PHONE_CLIENT=Teledoc
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
       ## Configuração do Banco de Dados
@@ -5164,7 +5164,7 @@ services:
       - traefik.http.services.evolution${1:+_$1}.loadbalancer.server.port=8080
       - traefik.http.services.evolution${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   evolution${1:+_$1}_instances:
@@ -5275,7 +5275,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.oriondesign.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -5357,16 +5357,16 @@ cat > evolution_v1${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
-  evolution_oriondesign${1:+_$1}:
+  evolution_Teledoc${1:+_$1}:
     image: atendai/evolution-api:v1.8.2 ## Versão da Evolution API
     command: ["node", "./dist/src/main.js"]
 
     volumes:
-    - evolution_oriondesign${1:+_$1}_instances:/evolution/instances
-    - evolution_oriondesign${1:+_$1}_store:/evolution/store
-    - evolution_oriondesign${1:+_$1}_views:/evolution/views
+    - evolution_Teledoc${1:+_$1}_instances:/evolution/instances
+    - evolution_Teledoc${1:+_$1}_store:/evolution/store
+    - evolution_Teledoc${1:+_$1}_views:/evolution/views
 
     networks:
       - $nome_rede_interna ## Nome da rede interna
@@ -5381,7 +5381,7 @@ services:
     - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
 
     ## Configurações
-    - CONFIG_SESSION_PHONE_CLIENT=OrionDesign ## Nome que aparece no celular
+    - CONFIG_SESSION_PHONE_CLIENT=Teledoc ## Nome que aparece no celular
     - CONFIG_SESSION_PHONE_NAME=chrome
 
     ## Definir versão do Whatsapp Web
@@ -5479,26 +5479,26 @@ services:
         - node.role == manager
       labels:
       - traefik.enable=1
-      - traefik.http.routers.evolution_oriondesign${1:+_$1}.rule=Host(\`$url_evolution\`) ## Url da Evolution API
-      - traefik.http.routers.evolution_oriondesign${1:+_$1}.entrypoints=websecure
-      - traefik.http.routers.evolution_oriondesign${1:+_$1}.priority=1
-      - traefik.http.routers.evolution_oriondesign${1:+_$1}.tls.certresolver=letsencryptresolver
-      - traefik.http.routers.evolution_oriondesign${1:+_$1}.service=evolution_oriondesign${1:+_$1}
-      - traefik.http.services.evolution_oriondesign${1:+_$1}.loadbalancer.server.port=8080
-      - traefik.http.services.evolution_oriondesign${1:+_$1}.loadbalancer.passHostHeader=1
+      - traefik.http.routers.evolution_Teledoc${1:+_$1}.rule=Host(\`$url_evolution\`) ## Url da Evolution API
+      - traefik.http.routers.evolution_Teledoc${1:+_$1}.entrypoints=websecure
+      - traefik.http.routers.evolution_Teledoc${1:+_$1}.priority=1
+      - traefik.http.routers.evolution_Teledoc${1:+_$1}.tls.certresolver=letsencryptresolver
+      - traefik.http.routers.evolution_Teledoc${1:+_$1}.service=evolution_Teledoc${1:+_$1}
+      - traefik.http.services.evolution_Teledoc${1:+_$1}.loadbalancer.server.port=8080
+      - traefik.http.services.evolution_Teledoc${1:+_$1}.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
-  evolution_oriondesign${1:+_$1}_instances:
+  evolution_Teledoc${1:+_$1}_instances:
     external: true
-    name: evolution_oriondesign${1:+_$1}_instances
-  evolution_oriondesign${1:+_$1}_store:
+    name: evolution_Teledoc${1:+_$1}_instances
+  evolution_Teledoc${1:+_$1}_store:
     external: true
-    name: evolution_oriondesign${1:+_$1}_store
-  evolution_oriondesign${1:+_$1}_views:
+    name: evolution_Teledoc${1:+_$1}_store
+  evolution_Teledoc${1:+_$1}_views:
     external: true
-    name: evolution_oriondesign${1:+_$1}_views
+    name: evolution_Teledoc${1:+_$1}_views
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -5603,7 +5603,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.oriondesign.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -5714,7 +5714,7 @@ cat > evolution_v2${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   evolution${1:+_$1}:
     image: atendai/evolution-api:v2.1.2 ## Versão da Evolution API
@@ -5737,7 +5737,7 @@ services:
       ## Configuração do Cliente
       ## Pegue a versão em: https://wppconnect.io/pt-BR/whatsapp-versions/
       - CONFIG_SESSION_PHONE_VERSION=2.3000.1015901307
-      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
+      - CONFIG_SESSION_PHONE_CLIENT=Teledoc
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
       ## Configuração do Banco de Dados
@@ -5893,7 +5893,7 @@ services:
       - traefik.http.services.evolution_v2${1:+_$1}.loadbalancer.server.port=8080
       - traefik.http.services.evolution_v2${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   evolution${1:+_$1}_instances:
@@ -6003,18 +6003,18 @@ while true; do
     
     ##Pergunta o Dominio do Minio
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o MinIO (ex: minio.oriondesign.art.br): \e[0m" && read -r url_minio
+    echo -en "\e[33mDigite o Dominio para o MinIO (ex: minio.Teledoc.art.br): \e[0m" && read -r url_minio
     echo ""
     
     ##Pergunta o Dominio para o S3 do Minio
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Minio S3 (ex: s3.oriondesign.art.br): \e[0m" && read -r url_s3
+    echo -en "\e[33mDigite o Dominio para o Minio S3 (ex: s3.Teledoc.art.br): \e[0m" && read -r url_s3
     echo ""
     
     ##Pergunta o Usuario para o Minio
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: \!#$ e/ou espaço"
-    echo -en "\e[33mDigite um usuario para o MinIO (ex: OrionDesign): \e[0m" && read -r user_minio
+    echo -en "\e[33mDigite um usuario para o MinIO (ex: Teledoc): \e[0m" && read -r user_minio
     echo ""
     
     ##Pergunta a Senha para o Minio
@@ -6099,7 +6099,7 @@ cat > minio${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   minio${1:+_$1}:
     image: quay.io/minio/minio:latest ## Versão do Minio
@@ -6141,7 +6141,7 @@ services:
         - traefik.http.services.minio_console${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.minio_console${1:+_$1}.service=minio_console${1:+_$1}
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   minio${1:+_$1}_data:
@@ -6257,12 +6257,12 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Builder do Typebot (ex: typebot.oriondesign.art.br): \e[0m" && read -r url_typebot
+    echo -en "\e[33mDigite o Dominio para o Builder do Typebot (ex: typebot.Teledoc.art.br): \e[0m" && read -r url_typebot
     echo ""
 
     ##Pergunta o Dominio do Viewer
     echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Viewer do Typebot (ex: bot.oriondesign.art.br): \e[0m" && read -r url_viewer
+    echo -en "\e[33mDigite o Dominio para o Viewer do Typebot (ex: bot.Teledoc.art.br): \e[0m" && read -r url_viewer
     echo ""
 
     ##Pergunta a versão da ferramenta
@@ -6272,13 +6272,13 @@ while true; do
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 4/10\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_typebot
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_typebot
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_email_typebot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_email_typebot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -6466,7 +6466,7 @@ cat > typebot${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   typebot${1:+_$1}_builder:
     image: baptistearno/typebot-builder:$versao_typebot ## Versão do Builder do Typebot
@@ -6535,7 +6535,7 @@ services:
         - traefik.http.services.typebot${1:+_$1}_builder.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot${1:+_$1}_builder.service=typebot${1:+_$1}_builder
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   typebot${1:+_$1}_viewer:
     image: baptistearno/typebot-viewer:$versao_typebot ## Versão do Viewer do Typebot
@@ -6604,7 +6604,7 @@ services:
         - traefik.http.services.typebot${1:+_$1}_viewer.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot${1:+_$1}_viewer.service=typebot${1:+_$1}_viewer
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -6707,23 +6707,23 @@ while true; do
 
     ##Pergunta o Dominio do N8N
     echo -e "\e[97mPasso$amarelo 1/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.oriondesign.art.br): \e[0m" && read -r url_editorn8n
+    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_editorn8n
     echo ""
     
     ##Pergunta o Dominio do Webhook
     echo -e "\e[97mPasso$amarelo 2/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.oriondesign.art.br): \e[0m" && read -r url_webhookn8n
+    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhookn8n
     echo ""
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 3/7\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_n8n
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_n8n
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 4/7\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_smtp_n8n
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_smtp_n8n
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -6876,7 +6876,7 @@ cat > n8n${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n${1:+_$1}_editor:
     image: n8nio/n8n:latest ## Versão do N8N
@@ -6954,7 +6954,7 @@ services:
         - traefik.http.services.n8n${1:+_$1}_editor.loadbalancer.server.port=5678
         - traefik.http.services.n8n${1:+_$1}_editor.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n${1:+_$1}_webhook:
     image: n8nio/n8n:latest ## Versão do N8N
@@ -7032,7 +7032,7 @@ services:
         - traefik.http.services.n8n${1:+_$1}_webhook.loadbalancer.server.port=5678
         - traefik.http.services.n8n${1:+_$1}_webhook.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n${1:+_$1}_worker:
     image: n8nio/n8n:latest ## Versão do N8N
@@ -7101,7 +7101,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -7209,7 +7209,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Flowise (ex: flowise.oriondesign.art.br): \e[0m" && read -r url_flowise
+    echo -en "\e[33mDigite o dominio para o Flowise (ex: flowise.Teledoc.art.br): \e[0m" && read -r url_flowise
     echo ""
     
     ##Pergunta o Usuario para a ferramenta
@@ -7317,7 +7317,7 @@ cat > flowise${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   flowise${1:+_$1}:
     image: flowiseai/flowise:latest ## Versão do Flowise
@@ -7366,7 +7366,7 @@ services:
         - traefik.http.routers.flowise${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.flowise${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   flowise${1:+_$1}_data:
@@ -7469,12 +7469,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o PgAdmin 4 (ex: pgadmin.oriondesign.art.br): \e[0m" && read -r url_PgAdmin_4
+    echo -en "\e[33mDigite o dominio para o PgAdmin 4 (ex: pgadmin.Teledoc.art.br): \e[0m" && read -r url_PgAdmin_4
     echo ""
     
     ##Pergunta o Email para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite um email para o PgAdmin 4 (ex: contato@oriondesign.art.br): \e[0m" && read -r user_PgAdmin_4
+    echo -en "\e[33mDigite um email para o PgAdmin 4 (ex: teledoc@teledocmedical.com): \e[0m" && read -r user_PgAdmin_4
     echo ""
     
     ##Pergunta a Senha para a ferramenta
@@ -7555,7 +7555,7 @@ cat > pgadmin${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:  
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   pgadmin${1:+_$1}:
     image: dpage/pgadmin4:latest ## Versão do PgAdmin 4
@@ -7590,7 +7590,7 @@ services:
           - traefik.http.routers.pgadmin${1:+_$1}.entrypoints=websecure
           - traefik.http.routers.pgadmin${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   pgadmin${1:+_$1}_data:
@@ -7695,17 +7695,17 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o dominio para o Nocobase (ex: nocobase.oriondesign.art.br): \e[0m" && read -r url_nocobase
+    echo -en "\e[33mDigite o dominio para o Nocobase (ex: nocobase.Teledoc.art.br): \e[0m" && read -r url_nocobase
     echo ""
     
     ##Pergunta o Email para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
-    echo -en "\e[33mDigite um email para o Nocobase (ex: contato@oriondesign.art.br): \e[0m" && read -r mail_nocobase
+    echo -en "\e[33mDigite um email para o Nocobase (ex: teledoc@teledocmedical.com): \e[0m" && read -r mail_nocobase
     echo ""
     
     ##Pergunta um Usuario para a ferramenta
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
-    echo -en "\e[33mDigite um nome de usuario para o Nocobase (ex: OrionDesign): \e[0m" && read -r user_nocobase
+    echo -en "\e[33mDigite um nome de usuario para o Nocobase (ex: Teledoc): \e[0m" && read -r user_nocobase
     echo ""
     
     ##Pergunta a Senha para a ferramenta
@@ -7814,7 +7814,7 @@ cat > nocobase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   nocobase${1:+_$1}:
     image: nocobase/nocobase:latest ## Versão do Nocobase
@@ -7866,7 +7866,7 @@ services:
         - traefik.http.routers.nocobase${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.nocobase${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   nocobase${1:+_$1}_storage:
@@ -7973,7 +7973,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Botpress (ex: botpress.oriondesign.art.br): \e[0m" && read -r url_botpress
+    echo -en "\e[33mDigite o dominio para o Botpress (ex: botpress.Teledoc.art.br): \e[0m" && read -r url_botpress
     echo ""
     
     ## Limpa o terminal
@@ -8073,7 +8073,7 @@ cat > botpress${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   botpress${1:+_$1}:
     image: botpress/server:latest
@@ -8116,7 +8116,7 @@ services:
         - traefik.http.routers.botpress${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.botpress${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   botpress${1:+_$1}_data:
@@ -8225,13 +8225,13 @@ while true; do
 
     ## Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Wordpress (ex: oriondesign.art.br ou loja.oriondesign.art.br): \e[0m" && read -r url_wordpress
+    echo -en "\e[33mDigite o dominio para o Wordpress (ex: Teledoc.art.br ou loja.Teledoc.art.br): \e[0m" && read -r url_wordpress
     echo ""
     
     ## Pergunta o nome do site
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
     echo -e "$amarelo--> Use apenas letras minusculas, sem espaço ou caracteres especiais"
-    echo -en "\e[33mDigite o nome do Site (ex: lojaorion): \e[0m" && read -r nome_site_wordpress
+    echo -en "\e[33mDigite o nome do Site (ex: lojaTeledoc): \e[0m" && read -r nome_site_wordpress
     echo ""  
 
     ## Limpa o terminal
@@ -8338,7 +8338,7 @@ cat > wordpress_$nome_site_wordpress.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   wordpress_$nome_site_wordpress:
     image: wordpress:latest ## Versão do Wordpress
@@ -8384,7 +8384,7 @@ services:
         - traefik.http.services.wordpress_$nome_site_wordpress.loadbalancer.server.port=80
         - traefik.http.services.wordpress_$nome_site_wordpress.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   wordpress_$nome_site_wordpress:
@@ -8560,17 +8560,17 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Baserow (ex: baserow.oriondesign.art.br): \e[0m" && read -r url_baserow
+    echo -en "\e[33mDigite o dominio para o Baserow (ex: baserow.Teledoc.art.br): \e[0m" && read -r url_baserow
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r mail_baserow
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r mail_baserow
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_baserow
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_baserow
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -8718,7 +8718,7 @@ cat > baserow${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   baserow${1:+_$1}:
     image: baserow/baserow:latest ## Versão do Baserow
@@ -8770,7 +8770,7 @@ services:
         - traefik.http.routers.baserow${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.baserow${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   baserow${1:+_$1}_data:
@@ -8875,7 +8875,7 @@ while true; do
     ## Pergunta o nome de usuario
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o nome de usuario (ex: oriondesign): \e[0m" && read -r user_mongo
+    echo -en "\e[33mDigite o nome de usuario (ex: Teledoc): \e[0m" && read -r user_mongo
     echo ""
     
     ## Gera a senha aleatória
@@ -8948,7 +8948,7 @@ cat > mongodb${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mongodb${1:+_$1}:
     image: mongo:latest
@@ -8982,7 +8982,7 @@ services:
           cpus: '1'
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   mongodb${1:+_$1}_data:
@@ -9098,12 +9098,12 @@ while true; do
 
     ## Pergunta o Dominio do RabbitMq
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o RabbitMQ (ex: rabbitmq.oriondesign.art.br): \e[0m" && read -r url_rabbitmq
+    echo -en "\e[33mDigite o dominio para o RabbitMQ (ex: rabbitmq.Teledoc.art.br): \e[0m" && read -r url_rabbitmq
     echo ""
     
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o nome de usuario (ex: OrionDesign): \e[0m" && read -r user_rabbitmq
+    echo -en "\e[33mDigite o nome de usuario (ex: Teledoc): \e[0m" && read -r user_rabbitmq
     echo ""
     
     ## Gera a senha aleatória
@@ -9180,7 +9180,7 @@ cat > rabbitmq${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   rabbitmq${1:+_$1}:
     image: rabbitmq:management
@@ -9222,7 +9222,7 @@ services:
         - traefik.http.routers.rabbitmq${1:+_$1}.service=rabbitmq${1:+_$1}
         - traefik.http.services.rabbitmq${1:+_$1}.loadbalancer.server.port=15672
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   rabbitmq${1:+_$1}_data:
@@ -9333,7 +9333,7 @@ while true; do
 
     ## Pergunta o Dominio do uptime kuma
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Uptime Kuma (ex: uptimekuma.oriondesign.art.br): \e[0m" && read -r url_uptimekuma
+    echo -en "\e[33mDigite o dominio para o Uptime Kuma (ex: uptimekuma.Teledoc.art.br): \e[0m" && read -r url_uptimekuma
     echo ""
     
     ## Limpa o terminal
@@ -9397,7 +9397,7 @@ cat > uptimekuma${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   uptimekuma${1:+_$1}:
     image: louislam/uptime-kuma:latest
@@ -9426,7 +9426,7 @@ services:
         - traefik.http.services.uptimekuma${1:+_$1}.loadBalancer.server.port=3001
         - traefik.http.routers.uptimekuma${1:+_$1}.service=uptimekuma${1:+_$1}
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   uptimekuma${1:+_$1}:
@@ -9536,18 +9536,18 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Cal (ex: calcom.oriondesign.art.br): \e[0m" && read -r url_calcom
+    echo -en "\e[33mDigite o dominio para o Cal (ex: calcom.Teledoc.art.br): \e[0m" && read -r url_calcom
     echo ""
     
     ## Pergunta o email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_calcom
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_calcom
     echo ""
 
     ## Pergunta o Ususario SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_calcom
+    echo -en "\e[33mDigite o Usuario para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_calcom
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -9669,7 +9669,7 @@ cat > calcom${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   calcom${1:+_$1}_app:
     image: calcom/cal.com:v4.7.8
@@ -9745,7 +9745,7 @@ services:
       - traefik.http.services.calcom${1:+_$1}_app.loadbalancer.server.port=3000
       - traefik.http.services.calcom${1:+_$1}_app.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna:
@@ -9848,18 +9848,18 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Mautic (ex: mautic.oriondesign.art.br): \e[0m" && read -r url_mautic
+    echo -en "\e[33mDigite o Dominio para o Mautic (ex: mautic.Teledoc.art.br): \e[0m" && read -r url_mautic
     echo ""
 
     ## Pergunta o usuario da ferramenta
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
     echo -e "$amarelo--> Sem caracteres especiais: \!#$ e/ou espaços"
-    echo -en "\e[33mDigite um usuario (ex: OrionDesign): \e[0m" && read -r user_mautic
+    echo -en "\e[33mDigite um usuario (ex: Teledoc): \e[0m" && read -r user_mautic
     echo ""
 
     ## Pergunta o email da ferramenta
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
-    echo -en "\e[33mDigite o Email de admin: (ex: contato@oriondesign.art.br): \e[0m" && read -r email_mautic
+    echo -en "\e[33mDigite o Email de admin: (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_mautic
     echo ""
     
     ## Pergunta o senha da ferramenta
@@ -9963,7 +9963,7 @@ cat > mautic${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mautic_web${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
@@ -10018,7 +10018,7 @@ services:
         - traefik.http.routers.mautic${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.services.mautic${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mautic_worker${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
@@ -10065,7 +10065,7 @@ services:
           cpus: "2"
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mautic_cron${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
@@ -10112,7 +10112,7 @@ services:
           cpus: "0.5"
           memory: 512M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   mautic${1:+_$1}_config:
@@ -10242,7 +10242,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Appsmith (ex: appsmith.oriondesign.art.br): \e[0m" && read -r url_appsmith
+    echo -en "\e[33mDigite o dominio para o Appsmith (ex: appsmith.Teledoc.art.br): \e[0m" && read -r url_appsmith
     echo ""
     
     ## Limpa o terminal
@@ -10309,7 +10309,7 @@ cat > appsmith${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   appsmith${1:+_$1}:
     image: appsmith/appsmith-ee:latest
@@ -10346,7 +10346,7 @@ services:
         - traefik.http.services.appsmith${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.services.appsmith${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   appsmith${1:+_$1}_data:
@@ -10455,7 +10455,7 @@ while true; do
     ## Pergunta o Dominio da ferramenta
     read -r ip _ <<<$(hostname -I)
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o ip da vps (seu ip: $ip) ou dominio para Qdrant (ex: qdrant.oriondesign.art.br): \e[0m" && read -r ip_vps
+    echo -en "\e[33mDigite o ip da vps (seu ip: $ip) ou dominio para Qdrant (ex: qdrant.Teledoc.art.br): \e[0m" && read -r ip_vps
     echo ""
     
     ## Pergunta quandos nodes deseja
@@ -10535,7 +10535,7 @@ for ((i=0; i< $nodes_qdrant; i++)); do
 
   cat <<EOL >> qdrant.yaml
 
-  ## --------------------------- ORION --------------------------- ##
+  ## --------------------------- Teledoc --------------------------- ##
 
   $node_name:
     image: qdrant/qdrant:latest ## Versão do Qdrant
@@ -10573,7 +10573,7 @@ EOL
 done
 
 cat <<EOL >> qdrant.yaml
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
 EOL
@@ -10683,13 +10683,13 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o WoofedCRM (ex: woofedcrm.oriondesign.art.br): \e[0m" && read -r url_woofed
+    echo -en "\e[33mDigite o Dominio para o WoofedCRM (ex: woofedcrm.Teledoc.art.br): \e[0m" && read -r url_woofed
     echo ""
 
     ## Pergunta o nome do Usuario do Motor
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o User do MOTOR (ex: oriondesign): \e[0m" && read -r email_admin_woofed
+    echo -en "\e[33mDigite o User do MOTOR (ex: Teledoc): \e[0m" && read -r email_admin_woofed
     echo ""
 
     ## Pergunta o nome do Senha do Motor
@@ -10814,7 +10814,7 @@ cat > woofedcrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   woofedcrm${1:+_$1}_web:
     image: douglara/woofedcrm:latest
@@ -10888,7 +10888,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.woofedcrm${1:+_$1}.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   woofedcrm${1:+_$1}_sidekiq:
     image: douglara/woofedcrm:latest
@@ -10951,7 +10951,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   woofedcrm${1:+_$1}_job:
     image: douglara/woofedcrm:latest
@@ -11014,7 +11014,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   woofedcrm${1:+_$1}_data:
@@ -11186,18 +11186,18 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Formbricks (ex: formbricks.oriondesign.art.br): \e[0m" && read -r url_formbricks
+    echo -en "\e[33mDigite o Dominio para o Formbricks (ex: formbricks.Teledoc.art.br): \e[0m" && read -r url_formbricks
     echo ""
     
     ## Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite um Email para o SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_formbricks
+    echo -en "\e[33mDigite um Email para o SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_formbricks
     echo ""
 
     ## Pergunta o User SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario do SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_formbricks
+    echo -en "\e[33mDigite o Usuario do SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_formbricks
     echo ""
     
     ## Pergunta a Senha SMTP
@@ -11329,7 +11329,7 @@ cat > formbricks${1:+_$1}.yaml <<-EOF
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   formbricks${1:+_$1}:
     image: formbricks/formbricks:latest
@@ -11349,7 +11349,7 @@ services:
       - DATABASE_URL=postgresql://postgres:$senha_pgvector@pgvector:5432/formbricks${1:+_$1}?schema=public
 
       ## Licença Enterprise ou Self-hosting
-      ## Solicitar licenta Self-hosting --> https://oriondesign.art.br/formbricks_licence/ <-- ##
+      ## Solicitar licenta Self-hosting --> https://Teledoc.art.br/formbricks_licence/ <-- ##
       - ENTERPRISE_LICENSE_KEY=
 
       ## Keys aleatórias 32 caracteres
@@ -11422,7 +11422,7 @@ services:
         - traefik.http.routers.formbricks${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.formbricks${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   formbricks${1:+_$1}_data:
@@ -11529,7 +11529,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o NocoDB (ex: nocodb.oriondesign.art.br): \e[0m" && read -r url_nocodb
+    echo -en "\e[33mDigite o dominio para o NocoDB (ex: nocodb.Teledoc.art.br): \e[0m" && read -r url_nocodb
     echo ""
     
     ## Limpa o terminal
@@ -11615,7 +11615,7 @@ cat > nocodb${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   nocodb${1:+_$1}: 
     image: nocodb/nocodb:latest
@@ -11655,7 +11655,7 @@ services:
         - traefik.http.routers.nocodb${1:+_$1}.tls.certresolver=letsencryptresolver
         - com.centurylinklabs.watchtower.enable=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   nocodb${1:+_$1}_data:
@@ -11763,7 +11763,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Langfuse (ex: langfuse.oriondesign.art.br): \e[0m" && read -r url_langfuse
+    echo -en "\e[33mDigite o dominio para o Langfuse (ex: langfuse.Teledoc.art.br): \e[0m" && read -r url_langfuse
     echo ""
     
     ## Limpa o terminal
@@ -11858,7 +11858,7 @@ cat > langfuse${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   langfuse${1:+_$1}:
     image: langfuse/langfuse:latest
@@ -11909,7 +11909,7 @@ services:
         - traefik.http.services.langfuse${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.services.langfuse${1:+_$1}.loadbalancer.server.port=3000
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna:
@@ -12012,7 +12012,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Metabase (ex: metabase.oriondesign.art.br): \e[0m" && read -r url_metabase
+    echo -en "\e[33mDigite o dominio para o Metabase (ex: metabase.Teledoc.art.br): \e[0m" && read -r url_metabase
     echo ""
     
     ## Limpa o terminal
@@ -12103,7 +12103,7 @@ cat > metabase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   metabase${1:+_$1}:
     image: metabase/metabase:latest
@@ -12146,7 +12146,7 @@ services:
         - traefik.http.routers.metabase${1:+_$1}.tls=true
         - traefik.http.routers.metabase${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   metabase${1:+_$1}_data:
@@ -12254,7 +12254,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Odoo (ex: odoo.oriondesign.art.br): \e[0m" && read -r url_odoo
+    echo -en "\e[33mDigite o dominio para o Odoo (ex: odoo.Teledoc.art.br): \e[0m" && read -r url_odoo
     echo ""
     
     ## Limpa o terminal
@@ -12323,7 +12323,7 @@ cat > odoo${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   odoo${1:+_$1}_app:
     image: odoo:18.0
@@ -12355,7 +12355,7 @@ services:
         - traefik.http.routers.odoo${1:+_$1}_app.tls.certresolver=letsencryptresolver
         - traefik.http.services.odoo${1:+_$1}_app.loadbalancer.server.port=8069
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   odoo${1:+_$1}_db:
     image: postgres:15
@@ -12379,7 +12379,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   odoo${1:+_$1}_app_data:
@@ -12514,7 +12514,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.oriondesign.art.br): \e[0m" && read -r url_chatwoot
+    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot
     echo ""
     
     ## Pega o nome do dominio para ser o nome da empresa
@@ -12522,7 +12522,7 @@ while true; do
     
     ## Pergunta o email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_admin_chatwoot
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_admin_chatwoot
     echo ""
 
     ## Define o dominio SMTP com o dominio do email
@@ -12531,7 +12531,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_chatwoot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_chatwoot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -12692,7 +12692,7 @@ cat > chatwoot_nestor${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   chatwoot_nestor${1:+_$1}_app:
     image: sendingtk/chatwoot:latest ## Versão do Chatwoot
@@ -12710,7 +12710,7 @@ services:
     
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      - CHATWOOT_HUB_URL=https://teledocmedical.com/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -12799,7 +12799,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot_nestor${1:+_$1}_app.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   chatwoot_nestor${1:+_$1}_sidekiq:
     image: sendingtk/chatwoot:latest ## Versão do Chatwoot
@@ -12816,7 +12816,7 @@ services:
 
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      - CHATWOOT_HUB_URL=https://teledocmedical.com/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -12894,7 +12894,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   chatwoot_nestor${1:+_$1}_storage:
@@ -13053,12 +13053,12 @@ while true; do
 
     ##Pergunta o Dominio da UnoApi
     echo -e "\e[97mPasso$amarelo 1/11\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Uno API (ex: unoapi.oriondesign.art.br): \e[0m" && read -r url_unoapi
+    echo -en "\e[33mDigite o Dominio para a Uno API (ex: unoapi.Teledoc.art.br): \e[0m" && read -r url_unoapi
     echo ""
 
     ##Pergunta o Dominio do Chatwoot
     echo -e "\e[97mPasso$amarelo 2/11\e[0m"
-    echo -en "\e[33mDigite o Dominio do Chatwoot já instalado (ex: chatwoot.oriondesign.art.br): \e[0m" && read -r url_chatwoot_uno
+    echo -en "\e[33mDigite o Dominio do Chatwoot já instalado (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot_uno
     echo ""
 
     ##Pergunta o o token do usuario
@@ -13226,7 +13226,7 @@ cat > unoapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   unoapi${1:+_$1}:
     image: clairton/unoapi-cloud:latest
@@ -13298,7 +13298,7 @@ services:
       - traefik.http.services.unoapi${1:+_$1}.loadbalancer.passHostHeader=true
       - traefik.http.routers.unoapi${1:+_$1}.service=unoapi${1:+_$1}
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   unoapi${1:+_$1}_data:
@@ -13411,27 +13411,27 @@ while true; do
 
     ##Pergunta o Dominio do N8N
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.oriondesign.art.br): \e[0m" && read -r url_editorn8n
+    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_editorn8n
     echo ""
     
     ##Pergunta o Dominio do Webhook
     echo -e "\e[97mPasso$amarelo 2/5\e[0m"
-    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.oriondesign.art.br): \e[0m" && read -r url_webhookn8n
+    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhookn8n
     echo ""
 
     ##Pergunta Dominio do Chatwoot
     echo -e "\e[97mPasso$amarelo 3/5\e[0m"
-    echo -en "\e[33mDigite o dominio do Chatwoot (ex: chatwoot.oriondesign.art.br): \e[0m" && read -r dominio_chatwoot
+    echo -en "\e[33mDigite o dominio do Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r dominio_chatwoot
     echo ""
 
     ##Pergunta Dominio do Quepasa
     echo -e "\e[97mPasso$amarelo 4/5\e[0m"
-    echo -en "\e[33mDigite o dominio do Quepasa (ex: quepasa.oriondesign.art.br): \e[0m" && read -r dominio_quepasa
+    echo -en "\e[33mDigite o dominio do Quepasa (ex: quepasa.Teledoc.art.br): \e[0m" && read -r dominio_quepasa
     echo ""
 
     ##Pergunta Email do Quepasa
     echo -e "\e[97mPasso$amarelo 5/5\e[0m"
-    echo -en "\e[33mDigite o email do Quepasa (ex: contato@oriondesign.art.br): \e[0m" && read -r email_quepasa
+    echo -en "\e[33mDigite o email do Quepasa (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_quepasa
     echo ""
     
     ## Limpa o terminal
@@ -13548,10 +13548,10 @@ cat > n8n_quepasa${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n_quepasa${1:+_$1}_editor:
-    image: oriondesign/n8n-quepasa:latest ## Versão do N8N
+    image: Teledoc/n8n-quepasa:latest ## Versão do N8N
     command: start
 
     volumes:
@@ -13648,10 +13648,10 @@ services:
         - traefik.http.services.n8n_quepasa${1:+_$1}_editor.loadbalancer.server.port=5678
         - traefik.http.services.n8n_quepasa${1:+_$1}_editor.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n_quepasa${1:+_$1}_webhook:
-    image: oriondesign/n8n-quepasa:latest ## Versão do N8N
+    image: Teledoc/n8n-quepasa:latest ## Versão do N8N
     command: webhook
 
     volumes:
@@ -13748,10 +13748,10 @@ services:
         - traefik.http.services.n8n_quepasa${1:+_$1}_webhook.loadbalancer.server.port=5678
         - traefik.http.services.n8n_quepasa${1:+_$1}_webhook.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   n8n_quepasa${1:+_$1}_worker:
-    image: oriondesign/n8n-quepasa:latest ## Versão do N8N
+    image: Teledoc/n8n-quepasa:latest ## Versão do N8N
     command: worker --concurrency=10
 
     volumes:
@@ -13839,7 +13839,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   n8n_quepasa${1:+_$1}_data:
@@ -13949,22 +13949,22 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Quepasa (ex: quepasa.oriondesign.art.br): \e[0m" && read -r url_quepasa
+    echo -en "\e[33mDigite o dominio para o Quepasa (ex: quepasa.Teledoc.art.br): \e[0m" && read -r url_quepasa
     echo ""
 
     ##Pergunta o email para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o email para o Quepasa (ex: contato@oriondesign.art.br): \e[0m" && read -r email_quepasa
+    echo -en "\e[33mDigite o email para o Quepasa (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_quepasa
     echo ""
 
     ##Pergunta o Dominio do Editor N8N Quepasa
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio do N8N Quepasa (ex: n8n.oriondesign.art.br): \e[0m" && read -r url_n8n
+    echo -en "\e[33mDigite o dominio do N8N Quepasa (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_n8n
     echo ""
 
     ##Pergunta o Dominio do webhook do N8N Quepasa
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio do Webhook N8N Quepasa (ex: webhook.oriondesign.art.br): \e[0m" && read -r url_webhook
+    echo -en "\e[33mDigite o dominio do Webhook N8N Quepasa (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhook
     echo ""
     
     ## Limpa o terminal
@@ -14045,7 +14045,7 @@ cat > quepasa${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   quepasa${1:+_$1}:
     image: deividms/quepasa:latest ## Imagem/versão do Quepasa
@@ -14066,7 +14066,7 @@ services:
       - QUEPASA_BASIC_AUTH_PASSWORD=$email_quepasa
 
       ## Titulo no celular
-      - APP_TITLE=OrionDesign ## Mude aqui o nome que vai aparecer no celular.
+      - APP_TITLE=Teledoc ## Mude aqui o nome que vai aparecer no celular.
 
       ## TimeZone
       - TZ=America/Sao_Paulo
@@ -14142,7 +14142,7 @@ services:
         - traefik.http.services.quepasa${1:+_$1}.loadbalancer.server.port=31000
         - traefik.http.services.quepasa${1:+_$1}.loadbalancer.passHostHeader=true              
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   quepasa${1:+_$1}_volume:
@@ -14258,18 +14258,18 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Docuseal (ex: docuseal.oriondesign.art.br): \e[0m" && read -r url_docuseal
+    echo -en "\e[33mDigite o dominio para o Docuseal (ex: docuseal.Teledoc.art.br): \e[0m" && read -r url_docuseal
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite a Email SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_docuseal
+    echo -en "\e[33mDigite a Email SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_docuseal
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_docuseal
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_docuseal
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -14398,7 +14398,7 @@ cat > docuseal${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   docuseal${1:+_$1}:
     image: docuseal/docuseal:latest
@@ -14449,7 +14449,7 @@ services:
         - traefik.http.routers.docuseal${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.docuseal${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   docuseal${1:+_$1}_data:
@@ -14557,22 +14557,22 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Grafana (ex: grafana.oriondesign.art.br): \e[0m" && read -r url_grafana
+    echo -en "\e[33mDigite o Dominio para o Grafana (ex: grafana.Teledoc.art.br): \e[0m" && read -r url_grafana
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Prometheus (ex: prometheus.oriondesign.art.br): \e[0m" && read -r url_prometheus
+    echo -en "\e[33mDigite o Dominio para o Prometheus (ex: prometheus.Teledoc.art.br): \e[0m" && read -r url_prometheus
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o cAdvisor (ex: cadvisor.oriondesign.art.br): \e[0m" && read -r url_cadvisor
+    echo -en "\e[33mDigite o Dominio para o cAdvisor (ex: cadvisor.Teledoc.art.br): \e[0m" && read -r url_cadvisor
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 4/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o NodeExporter (ex: node.oriondesign.art.br): \e[0m" && read -r url_nodeexporter
+    echo -en "\e[33mDigite o Dominio para o NodeExporter (ex: node.Teledoc.art.br): \e[0m" && read -r url_nodeexporter
     echo ""
 
     ## Limpa o terminal
@@ -14649,9 +14649,9 @@ sleep 1
 mkdir blablabla
 cd blablabla
 
-git clone https://github.com/oriondesign2015/SetupOrion.git > /dev/null 2>&1
+git clone https://github.com/Teledoc2015/SetupTeledoc.git > /dev/null 2>&1
 
-sudo mv /root/blablabla/SetupOrion/Extras/Grafana/monitor-orion /opt
+sudo mv /root/blablabla/SetupTeledoc/Extras/Grafana/monitor-Teledoc /opt
 
 cd
 
@@ -14680,7 +14680,7 @@ else
 fi
 
 
-cp /root/datasource.yml /opt/monitor-orion/grafana/
+cp /root/datasource.yml /opt/monitor-Teledoc/grafana/
 if [ $? -eq 0 ]; then
     echo "2/6 - [ OK ]"
 else
@@ -14688,7 +14688,7 @@ else
     echo "Não foi possivel copiar o datasource para o diretório opt"
 fi
 
-cp /root/datasource.yml /opt/monitor-orion/grafana/provisioning/datasources/
+cp /root/datasource.yml /opt/monitor-Teledoc/grafana/provisioning/datasources/
 if [ $? -eq 0 ]; then
     echo "3/6 - [ OK ]"
 else
@@ -14737,7 +14737,7 @@ else
     echo "Não foi possivel criar o prometheus"
 fi
 
-mv /root/prometheus.yml /opt/monitor-orion/prometheus/
+mv /root/prometheus.yml /opt/monitor-Teledoc/prometheus/
 if [ $? -eq 0 ]; then
     echo "6/6 - [ OK ]"
 else
@@ -14761,13 +14761,13 @@ cat > monitor.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   prometheus:
     image: prom/prometheus:latest
 
     volumes:
-      - /opt/monitor-orion/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /opt/monitor-Teledoc/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
 
     networks:
       - $nome_rede_interna
@@ -14790,16 +14790,16 @@ services:
         - traefik.http.routers.prometheus.entrypoints=websecure
         - traefik.http.routers.prometheus.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   grafana:
     image: grafana/grafana:latest
 
     volumes:
-      - /opt/monitor-orion/grafana/grafana.ini:/etc/grafana/grafana.ini
-      - /opt/monitor-orion/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
-      - /opt/monitor-orion/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
-      - /opt/monitor-orion/grafana/dashboards:/etc/grafana/dashboards
+      - /opt/monitor-Teledoc/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - /opt/monitor-Teledoc/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - /opt/monitor-Teledoc/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - /opt/monitor-Teledoc/grafana/dashboards:/etc/grafana/dashboards
 
     networks:
       - $nome_rede_interna
@@ -14824,7 +14824,7 @@ services:
         - traefik.http.routers.grafana.entrypoints=websecure
         - traefik.http.routers.grafana.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   node-exporter:
     image: prom/node-exporter:latest
@@ -14851,7 +14851,7 @@ services:
         - traefik.http.routers.node-exporter.entrypoints=websecure
         - traefik.http.routers.node-exporter.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   cadvisor:
     image: gcr.io/cadvisor/cadvisor
@@ -14885,7 +14885,7 @@ services:
         - traefik.http.routers.cadvisor.entrypoints=websecure
         - traefik.http.routers.cadvisor.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna:
@@ -15003,18 +15003,18 @@ while true; do
 
     ##Pergunta o Dominio do Dify AI
     echo -e "\e[97mPasso$amarelo 1/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o Dify AI (ex: dify.oriondesign.art.br): \e[0m" && read -r url_dify
+    echo -en "\e[33mDigite o dominio para o Dify AI (ex: dify.Teledoc.art.br): \e[0m" && read -r url_dify
     echo ""
 
     ##Pergunta o Dominio do Dify AI
     echo -e "\e[97mPasso$amarelo 2/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o API do Dify AI (ex: api-dify.oriondesign.art.br): \e[0m" && read -r url_dify_api
+    echo -en "\e[33mDigite o dominio para o API do Dify AI (ex: api-dify.Teledoc.art.br): \e[0m" && read -r url_dify_api
     echo ""
 
     ##Pergunta o Dominio do Qdrant
     #read -r ip _ <<<$(hostname -I)
     #echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    #echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip  ou http://qdrant.oriondesign.art.br): \e[0m" && read -r url_quedrant
+    #echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip  ou http://qdrant.Teledoc.art.br): \e[0m" && read -r url_quedrant
     #echo ""
 
     ##Pergunta a Api Key do Qdrant
@@ -15025,14 +15025,14 @@ while true; do
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 3/9\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_dify
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_dify
     echo ""
     
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 4/9\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_email_dify
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_email_dify
     echo ""
 
     ## Pergunta a senha do SMTP
@@ -15225,7 +15225,7 @@ cat > dify${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   dify${1:+_$1}_api:
     image: langgenius/dify-api:0.11.2 ## Versão do Dify
@@ -15336,7 +15336,7 @@ services:
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowMethods=GET,POST,PUT,DELETE,OPTIONS
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowHeaders=Content-Type,Authorization
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   dify${1:+_$1}_worker:
     image: langgenius/dify-api:0.11.2 ## Versão do Dify
@@ -15403,7 +15403,7 @@ services:
           cpus: "4"
           memory: 4096M
 
-## --------------------------- ORION --------------------------- ## 
+## --------------------------- Teledoc --------------------------- ## 
 
   dify${1:+_$1}_web:
     image: langgenius/dify-web:0.11.2 ## Versão do Dify
@@ -15443,7 +15443,7 @@ services:
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowMethods=GET,POST,PUT,DELETE,OPTIONS
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowHeaders=Content-Type,Authorization
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   dify${1:+_$1}_sandbox:
     image: langgenius/dify-sandbox:0.2.10
@@ -15467,7 +15467,7 @@ services:
           cpus: "4"
           memory: 4096M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   dify${1:+_$1}_weaviate:
     image: semitechnologies/weaviate:latest ## Versão do Weaviate
@@ -15489,9 +15489,9 @@ services:
       ## Dados de Autenticação
       - AUTHENTICATION_APIKEY_ENABLED=true
       - AUTHENTICATION_APIKEY_ALLOWED_KEYS=$token_weaviate
-      - AUTHENTICATION_APIKEY_USERS=contato@oriondesign.art.br
+      - AUTHENTICATION_APIKEY_USERS=teledoc@teledocmedical.com
       - AUTHORIZATION_ADMINLIST_ENABLED=true
-      - AUTHORIZATION_ADMINLIST_USERS=contato@oriondesign.art.br
+      - AUTHORIZATION_ADMINLIST_USERS=teledoc@teledocmedical.com
 
       ## Telemetria
       - DISABLE_TELEMETRY=true
@@ -15507,7 +15507,7 @@ services:
           cpus: "4"
           memory: 4096M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   dify${1:+_$1}_storage:
@@ -15617,12 +15617,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o WebUI Ollama (ex: ollama.oriondesign.art.br): \e[0m" && read -r url_ollama
+    echo -en "\e[33mDigite o dominio para o WebUI Ollama (ex: ollama.Teledoc.art.br): \e[0m" && read -r url_ollama
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio para a API Ollama (ex: apiollama.oriondesign.art.br): \e[0m" && read -r url_apiollama
+    echo -en "\e[33mDigite o dominio para a API Ollama (ex: apiollama.Teledoc.art.br): \e[0m" && read -r url_apiollama
     echo ""
     
     ## Limpa o terminal
@@ -15694,7 +15694,7 @@ cat > ollama${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   ollama${1:+_$1}:
     image: ollama/ollama:latest
@@ -15727,7 +15727,7 @@ services:
         - traefik.http.services.ollama${1:+_$1}.loadbalancer.server.port=11434
         - traefik.http.services.ollama${1:+_$1}.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   openwebui${1:+_$1}:
     image: ghcr.io/open-webui/open-webui:main
@@ -15761,7 +15761,7 @@ services:
         - traefik.http.services.openwebui${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.openwebui${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   ollama${1:+_$1}_data:
@@ -15865,12 +15865,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o Affine (ex: affine.oriondesign.art.br): \e[0m" && read -r url_affine
+    echo -en "\e[33mDigite o dominio para o Affine (ex: affine.Teledoc.art.br): \e[0m" && read -r url_affine
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/7\e[0m"
-    echo -en "\e[33mDigite o Email de Admin (ex: contato@oriondesign.art.br): \e[0m" && read -r email_affine
+    echo -en "\e[33mDigite o Email de Admin (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_affine
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -15881,7 +15881,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 4/7\e[0m"
-    echo -en "\e[33mDigite a Email SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_affine
+    echo -en "\e[33mDigite a Email SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_affine
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -16024,7 +16024,7 @@ cat > affine${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   affine${1:+_$1}:
     image: ghcr.io/toeverything/affine-graphql:stable-39476d1
@@ -16090,7 +16090,7 @@ services:
         - traefik.frontend.headers.STSPreload=true
         - traefik.frontend.headers.STSSeconds=31536000
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   affine${1:+_$1}_config:
@@ -16202,12 +16202,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o Directus (ex: directus.oriondesign.art.br): \e[0m" && read -r url_directus
+    echo -en "\e[33mDigite o dominio para o Directus (ex: directus.Teledoc.art.br): \e[0m" && read -r url_directus
     echo ""
 
      ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/9\e[0m"
-    echo -en "\e[33mDigite a Email de Admin (ex: contato@oriondesign.art.br): \e[0m" && read -r email_directus
+    echo -en "\e[33mDigite a Email de Admin (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_directus
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -16218,7 +16218,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 4/9\e[0m"
-    echo -en "\e[33mDigite a Email SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_directus
+    echo -en "\e[33mDigite a Email SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_directus
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -16403,7 +16403,7 @@ cat > directus${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   directus${1:+_$1}:
     image: directus/directus:latest
@@ -16469,7 +16469,7 @@ services:
         - traefik.http.services.directus${1:+_$1}.loadbalancer.server.port=8055
         - traefik.docker.network=proxy
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   directus${1:+_$1}_uploads:
@@ -16581,12 +16581,12 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o Dominio para o VaultWarden (ex: vaultwarden.oriondesign.art.br): \e[0m" && read -r url_vaultwarden
+    echo -en "\e[33mDigite o Dominio para o VaultWarden (ex: vaultwarden.Teledoc.art.br): \e[0m" && read -r url_vaultwarden
     echo ""
     
     ## Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 2/5\e[0m"
-    echo -en "\e[33mDigite um Email para o SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_vaultwarden
+    echo -en "\e[33mDigite um Email para o SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_vaultwarden
     echo ""
     
     ## Pergunta a Senha SMTP
@@ -16690,7 +16690,7 @@ cat > vaultwarden${1:+_$1}.yaml <<-EOF
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   vaultwarden${1:+_$1}:
     image: vaultwarden/server:latest
@@ -16741,7 +16741,7 @@ services:
         - "traefik.http.middlewares.compresstraefik.compress=true"
         - "traefik.docker.network=$nome_rede_interna"
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   vaultwarden${1:+_$1}_data:
@@ -16848,12 +16848,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o NextCloud (ex: nextcloud.oriondesign.art.br): \e[0m" && read -r url_nextcloud
+    echo -en "\e[33mDigite o dominio para o NextCloud (ex: nextcloud.Teledoc.art.br): \e[0m" && read -r url_nextcloud
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite o Usuario para o NextCloud (ex: orion): \e[0m" && read -r user_nextcloud
+    echo -en "\e[33mDigite o Usuario para o NextCloud (ex: Teledoc): \e[0m" && read -r user_nextcloud
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -16972,7 +16972,7 @@ cat > nextcloud${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   nextcloud${1:+_$1}:
     image: nextcloud:latest
@@ -17023,7 +17023,7 @@ services:
         - traefik.http.middlewares.nextcloud${1:+_$1}_redirectregex.redirectregex.regex=https://(.*)/.well-known/(?:card|cal)dav
         - traefik.http.middlewares.nextcloud${1:+_$1}_redirectregex.redirectregex.replacement=https://$$1/remote.php/dav
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   nextcloud${1:+_$1}_cron:
     image: nextcloud:latest
@@ -17039,7 +17039,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   nextcloud${1:+_$1}_data:
@@ -17160,7 +17160,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Strapi (ex: strapi.oriondesign.art.br): \e[0m" && read -r url_strapi
+    echo -en "\e[33mDigite o dominio para o Strapi (ex: strapi.Teledoc.art.br): \e[0m" && read -r url_strapi
     echo ""
     
     ## Limpa o terminal
@@ -17234,7 +17234,7 @@ cat > strapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   strapi${1:+_$1}_app:
     image: strapi/strapi
@@ -17281,7 +17281,7 @@ services:
         - traefik.http.services.strapi${1:+_$1}.loadbalancer.server.port=1337
         - traefik.http.services.strapi${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   strapi${1:+_$1}_db:
     image: percona/percona-server:8.0
@@ -17314,7 +17314,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   strapi${1:+_$1}_config:
@@ -17439,7 +17439,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o PhpMyAdmin (ex: phpmyadmin.oriondesign.art.br): \e[0m" && read -r url_phpmyadmin
+    echo -en "\e[33mDigite o dominio para o PhpMyAdmin (ex: phpmyadmin.Teledoc.art.br): \e[0m" && read -r url_phpmyadmin
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -17449,7 +17449,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     #echo -e "\e[97mPasso$amarelo 4/4\e[0m"
-    #echo -en "\e[33mDigite o Usuario MySQL  (ex: oriondesign): \e[0m" && read -r user_phpmyadmin
+    #echo -en "\e[33mDigite o Usuario MySQL  (ex: Teledoc): \e[0m" && read -r user_phpmyadmin
     #echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -17533,7 +17533,7 @@ cat > phpmyadmin${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   phpmyadmin${1:+_$1}:
     image: phpmyadmin/phpmyadmin:latest
@@ -17573,7 +17573,7 @@ services:
         - traefik.http.services.phpmyadmin${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.routers.phpmyadmin${1:+_$1}.service=phpmyadmin${1:+_$1}
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna:
@@ -17776,12 +17776,12 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Supabase (ex: supabase.oriondesign.art.br): \e[0m" && read -r url_supabase
+    echo -en "\e[33mDigite o Dominio para o Supabase (ex: supabase.Teledoc.art.br): \e[0m" && read -r url_supabase
     echo ""
 
     ##Pergunta o Dominio do Viewer
     echo -e "\e[97mPasso$amarelo 2/5\e[0m"
-    echo -en "\e[33mDigite o Usuario para o Supabase (ex: OrionDesign): \e[0m" && read -r user_supabase
+    echo -en "\e[33mDigite o Usuario para o Supabase (ex: Teledoc): \e[0m" && read -r user_supabase
     echo ""
 
     ##Pergunta a versão da ferramenta
@@ -17792,13 +17792,13 @@ while true; do
 
     ###Pergunta o Email SMTP
     #echo -e "\e[97mPasso$amarelo 4/10\e[0m"
-    #echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_supabase
+    #echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_supabase
     #echo ""
 
     ##Pergunta o usuário do Email SMTP
     #echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     #echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    #echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_email_supabase
+    #echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_email_supabase
     #echo ""
     
     ## Pergunta a senha do SMTP
@@ -17950,7 +17950,7 @@ telemetria Supabase iniciado
 cd
 mkdir temp
 cd temp
-git clone --depth 1 https://github.com/oriondesign2015/SetupOrion > /dev/null 2>&1
+git clone --depth 1 https://github.com/Teledoc2015/SetupTeledoc > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "1/3 - [ OK ] - Baixando Repositório do Supabase"
 else
@@ -17958,7 +17958,7 @@ else
     echo "Não foi possivel Baixar."
 fi
 
-mv SetupOrion/Extras/Supabase /root/supabase${1:+_$1}
+mv SetupTeledoc/Extras/Supabase /root/supabase${1:+_$1}
 
 cd
 
@@ -18030,7 +18030,7 @@ cat > supabase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   studio${1:+_$1}:
     image: supabase/studio:20241014-c083b3b ## Versão do Supabase Studio
@@ -18048,8 +18048,8 @@ services:
       - NEXT_ANALYTICS_BACKEND_PROVIDER=postgres
 
     ## Configuração de Branding
-      - DEFAULT_ORGANIZATION_NAME=OrionDesign
-      - DEFAULT_PROJECT_NAME=SetupOrion
+      - DEFAULT_ORGANIZATION_NAME=Teledoc
+      - DEFAULT_PROJECT_NAME=SetupTeledoc
 
     ## Configuração do Banco de Dados PostgreSQL
       - POSTGRES_PASSWORD=$Senha_Postgres
@@ -18078,7 +18078,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   kong${1:+_$1}:
     image: kong:2.8.1 ## Versão do Supabase Kong
@@ -18129,7 +18129,7 @@ services:
         - traefik.http.routers.kong${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.routers.kong${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   auth${1:+_$1}:
     image: supabase/gotrue:v2.158.1 ## Versão do Supabase Auth
@@ -18187,7 +18187,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   rest${1:+_$1}:
     image: postgrest/postgrest:v12.2.0 ## Versão do Supabase Rest
@@ -18217,7 +18217,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   realtime${1:+_$1}:
     image: supabase/realtime:v2.30.34 ## Versão do Supabase Realtime
@@ -18256,7 +18256,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   storage${1:+_$1}:
     image: supabase/storage-api:v1.11.13 ## Versão do Supabase Storage
@@ -18302,7 +18302,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   imgproxy${1:+_$1}:
     image: darthsim/imgproxy:v3.8.0 ## Versão do Supabase Imgproxy
@@ -18327,7 +18327,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   meta${1:+_$1}:
     image: supabase/postgres-meta:v0.84.2 ## Versão do Meta 
@@ -18351,7 +18351,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   functions${1:+_$1}:
     image: supabase/edge-runtime:v1.59.0 ## Versão do Supabase Functions
@@ -18382,7 +18382,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   analytics${1:+_$1}:
     image: supabase/logflare:1.4.0 ## Versão do Supabase Analytics
@@ -18418,7 +18418,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   db${1:+_$1}:
     image: supabase/postgres:15.1.1.78 ## Versão do Supabase Db
@@ -18463,7 +18463,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   vector${1:+_$1}:
     image: timberio/vector:0.28.1-alpine ## Versão do Supabase Vector
@@ -18489,7 +18489,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   supavisor${1:+_$1}:
     image: supabase/supavisor:1.1.56 ## Versão do Supabase Supavisor
@@ -18545,7 +18545,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   supabase${1:+_$1}_db_config:
@@ -18664,12 +18664,12 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Ntfy (ex: ntfy.oriondesign.art.br): \e[0m" && read -r url_ntfy
+    echo -en "\e[33mDigite o Dominio para o Ntfy (ex: ntfy.Teledoc.art.br): \e[0m" && read -r url_ntfy
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite o Usuario (ex: oriondesign): \e[0m" && read -r user_ntfy
+    echo -en "\e[33mDigite o Usuario (ex: Teledoc): \e[0m" && read -r user_ntfy
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -18756,7 +18756,7 @@ cat > ntfy${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   ntfy${1:+_$1}:
     image: binwiederhier/ntfy:latest
@@ -18794,7 +18794,7 @@ services:
         - traefik.http.routers.ntfy${1:+_$1}.middlewares=ntfy-auth
         - traefik.http.routers.ntfy${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   ntfy${1:+_$1}_cache:
@@ -18912,12 +18912,12 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/8\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Lowcoder (ex: lowcoder.oriondesign.art.br): \e[0m" && read -r url_lowcoder
+    echo -en "\e[33mDigite o Dominio para o Lowcoder (ex: lowcoder.Teledoc.art.br): \e[0m" && read -r url_lowcoder
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/8\e[0m"
-    echo -en "\e[33mDigite o User do MongoDB (ex: oriondesign): \e[0m" && read -r user_mongodb_lowcoder
+    echo -en "\e[33mDigite o User do MongoDB (ex: Teledoc): \e[0m" && read -r user_mongodb_lowcoder
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -18927,13 +18927,13 @@ while true; do
 
     ## Pergunta o email SMTP
     echo -e "\e[97mPasso$amarelo 4/8\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_lowcoder
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_lowcoder
     echo ""
 
     ## Pergunta o Ususario SMTP
     echo -e "\e[97mPasso$amarelo 5/8\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_lowcoder
+    echo -en "\e[33mDigite o Usuario para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_lowcoder
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -19073,7 +19073,7 @@ cat > lowcoder${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   lowcoder${1:+_$1}_api:
     image: lowcoderorg/lowcoder-ce-api-service:latest
@@ -19136,7 +19136,7 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   lowcoder${1:+_$1}_node:
     image: lowcoderorg/lowcoder-ce-node-service:latest
@@ -19160,7 +19160,7 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   lowcoder${1:+_$1}_frontend:
     image: lowcoderorg/lowcoder-ce-frontend:latest
@@ -19194,7 +19194,7 @@ services:
         - traefik.http.routers.lowcoder${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.routers.lowcoder${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   lowcoder${1:+_$1}_assets:
@@ -19306,7 +19306,7 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para LangFlow (ex: langflow.oriondesign.art.br): \e[0m" && read -r url_langflow
+    echo -en "\e[33mDigite o Dominio para LangFlow (ex: langflow.Teledoc.art.br): \e[0m" && read -r url_langflow
     echo ""
 
     ##Pergunta o Usuario para a ferramenta
@@ -19422,7 +19422,7 @@ cat > langflow${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   langflow${1:+_$1}:
     image: langflowai/langflow:v1.0.19.post2
@@ -19469,7 +19469,7 @@ services:
         - traefik.http.routers.langflow${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.langflow${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   langflow${1:+_$1}_data:
@@ -19577,7 +19577,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o OpenProject (ex: openproject.oriondesign.art.br): \e[0m" && read -r url_openproject
+    echo -en "\e[33mDigite o dominio para o OpenProject (ex: openproject.Teledoc.art.br): \e[0m" && read -r url_openproject
     echo ""
     
     ## Limpa o terminal
@@ -19678,7 +19678,7 @@ cat > openproject${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   openproject${1:+_$1}:
     image: openproject/openproject:14.1.1
@@ -19737,7 +19737,7 @@ services:
         - traefik.http.services.openproject${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.openproject${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   openproject${1:+_$1}_pgdata:
@@ -19849,7 +19849,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Zep (ex: zep.oriondesign.art.br): \e[0m" && read -r url_zep
+    echo -en "\e[33mDigite o Dominio para o Zep (ex: zep.Teledoc.art.br): \e[0m" && read -r url_zep
     echo ""
 
     ## Pergunta o nome do Usuario do Motor
@@ -19928,7 +19928,7 @@ cd
 mkdir temp
 cd temp
 
-git clone --depth 1 https://github.com/oriondesign2015/setuporion > /dev/null 2>&1
+git clone --depth 1 https://github.com/Teledoc2015/SetupTeledoc > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "1/1 - [ OK ] - Baixando Repositório do Zep"
 else
@@ -19936,7 +19936,7 @@ else
     echo "Não foi possivel Baixar."
 fi
 
-mv setuporion/Extras/Zep /root/zep${1:+_$1}
+mv SetupTeledoc/Extras/Zep /root/zep${1:+_$1}
 
 cd
 cd
@@ -19976,7 +19976,7 @@ cat > zep${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   zep${1:+_$1}_nlp:
     image: ghcr.io/getzep/zep-nlp-server:latest
@@ -19991,7 +19991,7 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   zep${1:+_$1}_app:
     image: ghcr.io/getzep/zep:latest
@@ -20045,7 +20045,7 @@ services:
         - traefik.http.services.zep${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.zep${1:+_$1}.service=zep${1:+_$1}
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
     
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -20145,7 +20145,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o HumHub (ex: humhub.oriondesign.art.br): \e[0m" && read -r url_humhub
+    echo -en "\e[33mDigite o Dominio para o HumHub (ex: humhub.Teledoc.art.br): \e[0m" && read -r url_humhub
     echo ""
 
     ## Pergunta o usuario da ferramenta
@@ -20168,12 +20168,12 @@ while true; do
     ## Pergunta o usuario da ferramenta
     echo -e "\e[97mPasso$amarelo 3/10\e[0m"
     echo -e "$amarelo--> Sem caracteres especiais: \!#$ e/ou espaços"
-    echo -en "\e[33mDigite um Usuario Admin (ex: OrionDesign): \e[0m" && read -r user_humhub
+    echo -en "\e[33mDigite um Usuario Admin (ex: Teledoc): \e[0m" && read -r user_humhub
     echo ""
 
     ## Pergunta o email da ferramenta
     echo -e "\e[97mPasso$amarelo 4/10\e[0m"
-    echo -en "\e[33mDigite o Email do Admin: (ex: contato@oriondesign.art.br): \e[0m" && read -r email_humhub
+    echo -en "\e[33mDigite o Email do Admin: (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_humhub
     echo ""
     
     ## Pergunta o senha da ferramenta
@@ -20184,13 +20184,13 @@ while true; do
 
     ## Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 6/10\e[0m"
-    echo -en "\e[33mDigite um Email para o SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_humhub
+    echo -en "\e[33mDigite um Email para o SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_humhub
     echo ""
 
     ## Pergunta o User SMTP
     echo -e "\e[97mPasso$amarelo 7/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario do SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_humhub
+    echo -en "\e[33mDigite o Usuario do SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_humhub
     echo ""
     
     ## Pergunta a Senha SMTP
@@ -20347,7 +20347,7 @@ cat > humhub${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   humhub${1:+_$1}:
     image: mriedmann/humhub:latest
@@ -20412,7 +20412,7 @@ services:
         - traefik.http.services.humhub${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.services.humhub${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   humhub${1:+_$1}_data:
@@ -20543,12 +20543,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Yourls (ex: yourls.oriondesign.art.br): \e[0m" && read -r url_yourls
+    echo -en "\e[33mDigite o dominio para o Yourls (ex: yourls.Teledoc.art.br): \e[0m" && read -r url_yourls
     echo ""
     
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite o Usuario (ex: oriondesign): \e[0m" && read -r user_yourls
+    echo -en "\e[33mDigite o Usuario (ex: Teledoc): \e[0m" && read -r user_yourls
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -20646,7 +20646,7 @@ cat > yourls${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   yourls${1:+_$1}:
     image: yourls:latest
@@ -20681,7 +20681,7 @@ services:
         - traefik.http.routers.yourls${1:+_$1}.service=yourls${1:+_$1}
         - traefik.http.services.yourls${1:+_$1}.loadbalancer.server.port=80
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -20785,18 +20785,18 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o TwentyCRM (ex: twentycrm.oriondesign.art.br): \e[0m" && read -r url_twentycrm
+    echo -en "\e[33mDigite o dominio para o TwentyCRM (ex: twentycrm.Teledoc.art.br): \e[0m" && read -r url_twentycrm
     echo ""
 
     ## Pergunta o email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_twentycrm
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_twentycrm
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r user_smtp_twentycrm
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r user_smtp_twentycrm
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -20903,7 +20903,7 @@ cat > twentycrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   twentycrm${1:+_$1}_server:
     image: twentycrm/twenty:latest
@@ -20945,7 +20945,7 @@ services:
         - traefik.http.routers.twentycrm${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.twentycrm${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   twentycrm${1:+_$1}_worker:
     image: twentycrm/twenty:latest
@@ -20976,7 +20976,7 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   twentycrm${1:+_$1}_db:
     image: twentycrm/twenty-postgres:latest
@@ -21004,7 +21004,7 @@ services:
           cpus: "0.5"
           memory: 1024M    
     
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   twentycrm_data:
@@ -21118,7 +21118,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Mattermost (ex: mattermost.oriondesign.art.br): \e[0m" && read -r url_mattermost
+    echo -en "\e[33mDigite o dominio para o Mattermost (ex: mattermost.Teledoc.art.br): \e[0m" && read -r url_mattermost
     echo ""
     
     ## Limpa o terminal
@@ -21204,7 +21204,7 @@ cat > mattermost${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   mattermost${1:+_$1}:
     image: mattermost/mattermost-team-edition:latest
@@ -21248,7 +21248,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.mattermost${1:+_$1}.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   mattermost${1:+_$1}_data:
@@ -21367,7 +21367,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o dominio para o Outline (ex: outline.oriondesign.art.br): \e[0m" && read -r url_outline
+    echo -en "\e[33mDigite o dominio para o Outline (ex: outline.Teledoc.art.br): \e[0m" && read -r url_outline
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -21498,7 +21498,7 @@ cat > outline${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   outline${1:+_$1}:
     image: outlinewiki/outline:0.75.0
@@ -21581,7 +21581,7 @@ services:
         - traefik.http.routers.outline${1:+_$1}.service=outline${1:+_$1}
         - traefik.http.services.outline${1:+_$1}.loadbalancer.server.port=3000
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   outline${1:+_$1}_data:
@@ -21689,7 +21689,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o FocalBoard (ex: focalboard.oriondesign.art.br): \e[0m" && read -r url_focalboard
+    echo -en "\e[33mDigite o dominio para o FocalBoard (ex: focalboard.Teledoc.art.br): \e[0m" && read -r url_focalboard
     echo ""
     
     ## Limpa o terminal
@@ -21755,7 +21755,7 @@ cat > focalboard${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   focalboard${1:+_$1}:
     image: mattermost/focalboard:latest
@@ -21788,7 +21788,7 @@ services:
         - traefik.http.routers.focalboard${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.focalboard${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   focalboard${1:+_$1}_data:
@@ -21895,7 +21895,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o GLPI (ex: glpi.oriondesign.art.br): \e[0m" && read -r url_glpi
+    echo -en "\e[33mDigite o dominio para o GLPI (ex: glpi.Teledoc.art.br): \e[0m" && read -r url_glpi
     echo ""
     
     ## Limpa o terminal
@@ -21981,7 +21981,7 @@ cat > glpi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   glpi${1:+_$1}:
     image: diouxx/glpi:latest
@@ -22016,7 +22016,7 @@ services:
         - traefik.http.routers.glpi${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.glpi${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   glpi${1:+_$1}_glpi:
@@ -22135,13 +22135,13 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Anything LLM (ex: anythingllm.oriondesign.art.br): \e[0m" && read -r url_anythingllm
+    echo -en "\e[33mDigite o dominio para o Anything LLM (ex: anythingllm.Teledoc.art.br): \e[0m" && read -r url_anythingllm
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
     read -r ip _ <<<$(hostname -I)
-    echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip:6333  ou http://qdrant.oriondesign.art.br:6333): \e[0m" && read -r qdrant_anythingllm
+    echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip:6333  ou http://qdrant.Teledoc.art.br:6333): \e[0m" && read -r qdrant_anythingllm
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -22219,7 +22219,7 @@ cat > anythingllm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   anythingllm${1:+_$1}:
     image: mintplexlabs/anythingllm:latest
@@ -22262,7 +22262,7 @@ services:
         - traefik.http.routers.anythingllm${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.anythingllm${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   anythingllm${1:+_$1}_storage:
@@ -22376,7 +22376,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Excalidraw (ex: excalidraw.oriondesign.art.br): \e[0m" && read -r url_excalidraw
+    echo -en "\e[33mDigite o dominio para o Excalidraw (ex: excalidraw.Teledoc.art.br): \e[0m" && read -r url_excalidraw
     echo ""
     
     ## Limpa o terminal
@@ -22442,7 +22442,7 @@ cat > excalidraw${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   excalidraw${1:+_$1}:
     image: excalidraw/excalidraw:latest
@@ -22476,7 +22476,7 @@ services:
         - traefik.http.routers.excalidraw${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.excalidraw${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 
 volumes:
@@ -22591,7 +22591,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Easy!Appointments (ex: easyappointments.oriondesign.art.br): \e[0m" && read -r url_easyappointments
+    echo -en "\e[33mDigite o dominio para o Easy!Appointments (ex: easyappointments.Teledoc.art.br): \e[0m" && read -r url_easyappointments
     echo ""
     
     ## Limpa o terminal
@@ -22691,7 +22691,7 @@ cat > easyappointments${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   easyapointments${1:+_$1}:
     image: alextselegidis/easyappointments:latest
@@ -22743,7 +22743,7 @@ services:
         - traefik.http.routers.easyapointments${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.easyapointments${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   easyapointments${1:+_$1}_data:
@@ -22851,18 +22851,18 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/8\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Builder do Documenso (ex: documenso.oriondesign.art.br): \e[0m" && read -r url_documenso
+    echo -en "\e[33mDigite o Dominio para o Builder do Documenso (ex: documenso.Teledoc.art.br): \e[0m" && read -r url_documenso
     echo ""
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 2/8\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_documenso
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_documenso
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/8\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_email_documenso
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_email_documenso
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -23043,7 +23043,7 @@ cat > documenso${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   documenso${1:+_$1}:
     image: documenso/documenso:latest
@@ -23059,7 +23059,7 @@ services:
       - PORT=3000
       - NEXTAUTH_URL=https://$url_documenso
       - NEXT_PUBLIC_WEBAPP_URL=https://$url_documenso
-      - NEXT_PUBLIC_MARKETING_URL=https://oriondesign.art.br
+      - NEXT_PUBLIC_MARKETING_URL=https://Teledoc.art.br
 
       ## Secret Keys
       - NEXTAUTH_SECRET=$key_documenso1
@@ -23118,7 +23118,7 @@ services:
         - traefik.http.routers.documenso${1:+_$1}.tls=true
     
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   documenso${1:+_$1}_cert:
@@ -23227,17 +23227,17 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o dominio para o Moodle (ex: moodle.oriondesign.art.br): \e[0m" && read -r url_moodle
+    echo -en "\e[33mDigite o dominio para o Moodle (ex: moodle.Teledoc.art.br): \e[0m" && read -r url_moodle
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    echo -en "\e[33mDigite o nome para o projeto (ex: OrionDesign): \e[0m" && read -r project_name_moodle
+    echo -en "\e[33mDigite o nome para o projeto (ex: Teledoc): \e[0m" && read -r project_name_moodle
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 3/10\e[0m"
-    echo -en "\e[33mDigite um Nome de Usuario (ex: oriondesign): \e[0m" && read -r user_moodle
+    echo -en "\e[33mDigite um Nome de Usuario (ex: Teledoc): \e[0m" && read -r user_moodle
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -23249,18 +23249,18 @@ while true; do
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     echo -e "$amarelo--> Sem caracteres especiais: \!#$"
-    echo -en "\e[33mDigite um Email para o Usuario (ex: contato@oriondesign.art.br): \e[0m" && read -r mail_moodle
+    echo -en "\e[33mDigite um Email para o Usuario (ex: teledoc@teledocmedical.com): \e[0m" && read -r mail_moodle
     echo ""
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 6/10\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_moodle
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_moodle
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 7/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_smtp_moodle
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_smtp_moodle
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -23387,7 +23387,7 @@ cat > moodle${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   moodle${1:+_$1}_app:
     image: bitnami/moodle:latest
@@ -23422,9 +23422,9 @@ services:
       ## Dados MarinaDB
       - MOODLE_DATABASE_HOST=moodle${1:+_$1}_mariadb
       - MOODLE_DATABASE_PORT_NUMBER=3306
-      - MOODLE_DATABASE_USER=orion_moodle
+      - MOODLE_DATABASE_USER=Teledoc_moodle
       - MOODLE_DATABASE_PASSWORD=$senha_marinadb
-      - MOODLE_DATABASE_NAME=orionbase_moodle
+      - MOODLE_DATABASE_NAME=Teledocbase_moodle
       - ALLOW_EMPTY_PASSWORD=no
 
     deploy:
@@ -23446,7 +23446,7 @@ services:
         - traefik.http.routers.moodle${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.moodle${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   moodle${1:+_$1}_mariadb:
     image: bitnami/mariadb:latest
@@ -23459,9 +23459,9 @@ services:
 
     environment:  
       ## Dados MarinaDB
-      - MARIADB_USER=orion_moodle
+      - MARIADB_USER=Teledoc_moodle
       - MARIADB_ROOT_PASSWORD=$senha_marinadb
-      - MARIADB_DATABASE=orionbase_moodle
+      - MARIADB_DATABASE=Teledocbase_moodle
       - MARIADB_PASSWORD=$senha_marinadb
       - MARIADB_CHARACTER_SET=utf8mb4
       - MARIADB_COLLATE=utf8mb4_unicode_ci
@@ -23478,7 +23478,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   moodle${1:+_$1}_app_apache_conf:
@@ -23599,18 +23599,18 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para a ToolJet (ex: tooljet.oriondesign.art.br): \e[0m" && read -r url_tooljet
+    echo -en "\e[33mDigite o Dominio para a ToolJet (ex: tooljet.Teledoc.art.br): \e[0m" && read -r url_tooljet
     echo ""
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_smtp_tooljet
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_smtp_tooljet
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_smtp_tooljet
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_smtp_tooljet
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -23759,7 +23759,7 @@ cat > tooljet${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   tooljet${1:+_$1}_app:
     image: tooljet/tooljet:ee-lts-latest
@@ -23864,7 +23864,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -23970,12 +23970,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Stirling PDF (ex: stirlingpdf.oriondesign.art.br): \e[0m" && read -r url_stirlingpdf
+    echo -en "\e[33mDigite o dominio para o Stirling PDF (ex: stirlingpdf.Teledoc.art.br): \e[0m" && read -r url_stirlingpdf
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite o nome para o App (ex: OrionPDF): \e[0m" && read -r name_stirlingpdf
+    echo -en "\e[33mDigite o nome para o App (ex: TeledocPDF): \e[0m" && read -r name_stirlingpdf
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -24054,7 +24054,7 @@ cat > stirlingpdf${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   stirlingpdf${1:+_$1}:
     image: frooodle/s-pdf:latest ## Versão da aplicação
@@ -24103,7 +24103,7 @@ services:
         - traefik.http.routers.stirlingpdf${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.stirlingpdf${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   stirlingpdf${1:+_$1}_data:
@@ -24218,7 +24218,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o ClickHouse (ex: clickhouse.oriondesign.art.br): \e[0m" && read -r url_clickhouse
+    echo -en "\e[33mDigite o dominio para o ClickHouse (ex: clickhouse.Teledoc.art.br): \e[0m" && read -r url_clickhouse
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -24302,7 +24302,7 @@ cat > clickhouse${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   clickhouse:${1:+_$1}
     image: clickhouse/clickhouse-server:23.8.8.20-alpine
@@ -24339,7 +24339,7 @@ services:
         - traefik.http.routers.clickhouse${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.clickhouse${1:+_$1}.tls=true        
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   clickhouse${1:+_$1}_data:
@@ -24456,7 +24456,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o RedisInsight (ex: redisinsight.oriondesign.art.br): \e[0m" && read -r url_redisinsight
+    echo -en "\e[33mDigite o dominio para o RedisInsight (ex: redisinsight.Teledoc.art.br): \e[0m" && read -r url_redisinsight
     echo ""
     
     ## Limpa o terminal
@@ -24522,7 +24522,7 @@ cat > redisinsight${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   redisinsight${1:+_$1}:
     image: redislabs/redisinsight:latest
@@ -24561,7 +24561,7 @@ services:
         - traefik.http.routers.redisinsight${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.redisinsight${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   redisinsight${1:+_$1}_data:
@@ -24669,7 +24669,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Traccar (ex: traccar.oriondesign.art.br): \e[0m" && read -r url_traccar
+    echo -en "\e[33mDigite o dominio para o Traccar (ex: traccar.Teledoc.art.br): \e[0m" && read -r url_traccar
     echo ""
     
     ## Limpa o terminal
@@ -24770,7 +24770,7 @@ cat > traccar${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   traccar${1:+_$1}:
     image: traccar/traccar:latest
@@ -24805,7 +24805,7 @@ services:
         - traefik.http.routers.traccar${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.traccar${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   traccar${1:+_$1}_db:
     image: mysql:8.0
@@ -24833,7 +24833,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   traccar${1:+_$1}_data:
@@ -24941,7 +24941,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Firecrawl (ex: firecrawl.oriondesign.art.br): \e[0m" && read -r url_firecrawl
+    echo -en "\e[33mDigite o dominio para o Firecrawl (ex: firecrawl.Teledoc.art.br): \e[0m" && read -r url_firecrawl
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -25017,10 +25017,10 @@ cat > firecrawl${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   firecrawl${1:+_$1}_api:
-    image: oriondesign/firecrawl-api:latest
+    image: Teledoc/firecrawl-api:latest
     command: [ "pnpm", "run", "start:production" ]
 
     networks:
@@ -25078,10 +25078,10 @@ services:
         - traefik.http.routers.firecrawl${1:+_$1}_api.entrypoints=websecure
         - traefik.http.routers.firecrawl${1:+_$1}_api.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   firecrawl${1:+_$1}_worker:
-    image: oriondesign/firecrawl-api:latest
+    image: Teledoc/firecrawl-api:latest
     command: [ "pnpm", "run", "workers" ]
 
     networks:
@@ -25131,10 +25131,10 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
   firecrawl${1:+_$1}_playwright:
-    image: oriondesign/firecrawl-playwright-service:latest
+    image: Teledoc/firecrawl-playwright-service:latest
 
     networks:
      - $nome_rede_interna ## Nome da rede interna
@@ -25157,7 +25157,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -25253,7 +25253,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Wuzapi (ex: wuzapi.oriondesign.art.br): \e[0m" && read -r url_wuzapi
+    echo -en "\e[33mDigite o dominio para o Wuzapi (ex: wuzapi.Teledoc.art.br): \e[0m" && read -r url_wuzapi
     echo ""
     
     ## Limpa o terminal
@@ -25344,7 +25344,7 @@ cat > wuzapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
  wuzapi${1:+_$1}:
   image: ruben18salazar/wuzapi:api
@@ -25388,7 +25388,7 @@ services:
         - traefik.http.routers.wuzapi${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.wuzapi${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   wuzapi${1:+_$1}_dbdata:
@@ -25497,18 +25497,18 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Krayin CRM (ex: krayincrm.oriondesign.art.br): \e[0m" && read -r url_krayincrm
+    echo -en "\e[33mDigite o dominio para o Krayin CRM (ex: krayincrm.Teledoc.art.br): \e[0m" && read -r url_krayincrm
     echo ""
 
     ##Pergunta o Email SMTP
     echo -e "\e[97mPasso$amarelo 2/6\e[0m"
-    echo -en "\e[33mDigite o Email para SMTP (ex: contato@oriondesign.art.br): \e[0m" && read -r email_krayincrm
+    echo -en "\e[33mDigite o Email para SMTP (ex: teledoc@teledocmedical.com): \e[0m" && read -r email_krayincrm
     echo ""
 
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: oriondesign ou contato@oriondesign.art.br): \e[0m" && read -r usuario_email_krayincrm
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: Teledoc ou teledoc@teledocmedical.com): \e[0m" && read -r usuario_email_krayincrm
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -25636,8 +25636,8 @@ verificar_container_mysql
 sleep 30
 docker exec -it "$(docker ps --filter "name=^mysql_mysql" -q)" mysql -u root -p"$senha_mysql" -e "
 CREATE DATABASE krayin${1:+_$1} CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-CREATE USER 'orion'@'%' IDENTIFIED BY 'design';
-GRANT ALL PRIVILEGES ON krayin${1:+_$1}.* TO 'orion'@'%';
+CREATE USER 'Teledoc'@'%' IDENTIFIED BY 'design';
+GRANT ALL PRIVILEGES ON krayin${1:+_$1}.* TO 'Teledoc'@'%';
 FLUSH PRIVILEGES;" > /dev/null 2>&1
 
 ## Mensagem de Passo
@@ -25651,7 +25651,7 @@ cat > krayincrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-  ## --------------------------- ORION --------------------------- ##
+  ## --------------------------- Teledoc --------------------------- ##
 
   krayin${1:+_$1}:
     image: webkul/krayin:2.0.1
@@ -25677,7 +25677,7 @@ services:
       - DB_HOST=mysql
       - DB_PORT=3306
       - DB_DATABASE=krayin${1:+_$1}
-      - DB_USERNAME=orion
+      - DB_USERNAME=Teledoc
       - DB_PASSWORD=design
       - DB_PREFIX=
 
@@ -25689,7 +25689,7 @@ services:
       - MAIL_HOST=$smtp_email_krayincrm ## mude
       - MAIL_PORT=$porta_smtp_krayincrm ## mude
       - MAIL_ENCRYPTION=$smtp_secure_krayincrm
-      - MAIL_FROM_NAME="OrionCRM" ## mude
+      - MAIL_FROM_NAME="TeledocCRM" ## mude
 
       ## Configurações de Cache e Sessão
       - CACHE_DRIVER=file
@@ -25719,7 +25719,7 @@ services:
         - traefik.http.routers.krayin${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.krayin${1:+_$1}.tls=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- Teledoc --------------------------- ##
 
 volumes:
   krayin${1:+_$1}_data:
@@ -25793,7 +25793,7 @@ mv AppServiceProvider.php /var/lib/docker/volumes/krayin${1:+_$1}_data/_data/app
 
 docker exec -it "$(docker ps --filter "name=krayincrm${1:+_$1}_krayin" -q)" php /var/www/html/laravel-crm/artisan migrate --force > /dev/null 2>&1
 
-docker exec -it   -e APP_NAME="Krayin CRM"   -e APP_URL="https://$url_krayincrm"   -e APP_TIMEZONE="America/Sao_Paulo"   -e APP_LOCALE="en"   -e APP_CURRENCY="BRL"   -e DB_CONNECTION="mysql"   -e DB_HOST="mysql"   -e DB_PORT="3306"   -e DB_DATABASE="krayin${1:+_$1}"   -e DB_USERNAME="orion"   -e DB_PASSWORD="design"   "$(docker ps --filter "name=krayincrm${1:+_$1}_krayin" -q)"   php /var/www/html/laravel-crm/artisan krayin-crm:install --no-interaction > /dev/null 2>&1
+docker exec -it   -e APP_NAME="Krayin CRM"   -e APP_URL="https://$url_krayincrm"   -e APP_TIMEZONE="America/Sao_Paulo"   -e APP_LOCALE="en"   -e APP_CURRENCY="BRL"   -e DB_CONNECTION="mysql"   -e DB_HOST="mysql"   -e DB_PORT="3306"   -e DB_DATABASE="krayin${1:+_$1}"   -e DB_USERNAME="Teledoc"   -e DB_PASSWORD="design"   "$(docker ps --filter "name=krayincrm${1:+_$1}_krayin" -q)"   php /var/www/html/laravel-crm/artisan krayin-crm:install --no-interaction > /dev/null 2>&1
 
 docker exec -it "$(docker ps --filter 'name=krayincrm_krayin' -q)" php /var/www/html/laravel-crm/artisan migrate --seed --force > /dev/null 2>&1
 
@@ -25848,7 +25848,7 @@ requisitar_outra_instalacao
 ## Ignore esta parte, só para facilitar minha identificação com esta parte "XXOOXX"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Comandos extras
@@ -25972,28 +25972,28 @@ chatwoot.mail() {
     fi
     
     # Baixa os novos arquivos
-    wget -O confirmation_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
+    wget -O confirmation_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "5/9 - [ OK ]"
     else
         echo "5/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O password_change.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
+    wget -O password_change.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "6/9 - [ OK ]"
     else
         echo "6/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O reset_password_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
+    wget -O reset_password_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "7/9 - [ OK ]"
     else
         echo "7/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O unlock_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
+    wget -O unlock_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "8/9 - [ OK ]"
     else
@@ -26063,28 +26063,28 @@ chatwoot.n.mail() {
     fi
     
     # Baixa os novos arquivos
-    wget -O confirmation_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
+    wget -O confirmation_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "5/9 - [ OK ]"
     else
         echo "5/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O password_change.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
+    wget -O password_change.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "6/9 - [ OK ]"
     else
         echo "6/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O reset_password_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
+    wget -O reset_password_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "7/9 - [ OK ]"
     else
         echo "7/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O unlock_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
+    wget -O unlock_instructions.html.erb https://github.com/Teledoc2015/SetupTeledoc/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "8/9 - [ OK ]"
     else
@@ -26136,19 +26136,19 @@ while true; do
 
             # Baixando workflows
 
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootExtra.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootProfileUpdate.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootToQuepasa.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/GetChatwootContacts.json"
-	          wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/MsgRejectCall.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/PostToChatwoot.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/PostToWebCallBack.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaAutomatic.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaChatControl.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaInboxControl.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaQrcode.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaToChatwoot.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ToChatwootTranscriptViaOpenAI.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/ChatwootExtra.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/ChatwootProfileUpdate.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/ChatwootToQuepasa.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/GetChatwootContacts.json"
+	          wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/MsgRejectCall.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/PostToChatwoot.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/PostToWebCallBack.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/QuepasaAutomatic.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/QuepasaChatControl.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/QuepasaInboxControl.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/QuepasaQrcode.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/QuepasaToChatwoot.json"
+            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Teledoc/main/workflows/latest/ToChatwootTranscriptViaOpenAI.json"
 
             # Subindo workflows
             n8n import:workflow --input="$temp_dir" --separate
@@ -26331,8 +26331,8 @@ krayin.fix(){
 
 docker exec -it "$(docker ps --filter "name=^mysql_mysql" -q)" mysql -u root -p"$senha_mysql" -e "
 CREATE DATABASE $DB_VAR CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-CREATE USER 'orion'@'%' IDENTIFIED BY 'design';
-GRANT ALL PRIVILEGES ON $DB_VAR.* TO 'orion'@'%';
+CREATE USER 'Teledoc'@'%' IDENTIFIED BY 'design';
+GRANT ALL PRIVILEGES ON $DB_VAR.* TO 'Teledoc'@'%';
 FLUSH PRIVILEGES;" > /dev/null 2>&1
 
 
@@ -26343,7 +26343,7 @@ FLUSH PRIVILEGES;" > /dev/null 2>&1
       echo "2/4 - [ OFF ] - Migrando DB"
   fi
 
-  docker exec -it   -e APP_NAME="Krayin CRM"   -e APP_URL="https://$URL_VAR"   -e APP_TIMEZONE="America/Sao_Paulo"   -e APP_LOCALE="en"   -e APP_CURRENCY="BRL"   -e DB_CONNECTION="mysql"   -e DB_HOST="mysql"   -e DB_PORT="3306"   -e DB_DATABASE="$DB_VAR"   -e DB_USERNAME="orion"   -e DB_PASSWORD="design"   "$(docker ps --filter "name=krayincrm${1:+_$1}_krayin" -q)"   php /var/www/html/laravel-crm/artisan krayin-crm:install --no-interaction > /dev/null 2>&1
+  docker exec -it   -e APP_NAME="Krayin CRM"   -e APP_URL="https://$URL_VAR"   -e APP_TIMEZONE="America/Sao_Paulo"   -e APP_LOCALE="en"   -e APP_CURRENCY="BRL"   -e DB_CONNECTION="mysql"   -e DB_HOST="mysql"   -e DB_PORT="3306"   -e DB_DATABASE="$DB_VAR"   -e DB_USERNAME="Teledoc"   -e DB_PASSWORD="design"   "$(docker ps --filter "name=krayincrm${1:+_$1}_krayin" -q)"   php /var/www/html/laravel-crm/artisan krayin-crm:install --no-interaction > /dev/null 2>&1
   if [ $? -eq 0 ]; then
       echo "3/4 - [ OK ] - Aplicando Seed"
   else
@@ -26368,7 +26368,7 @@ FLUSH PRIVILEGES;" > /dev/null 2>&1
 }
 
 krayin.br(){
-  wget -O /var/lib/docker/volumes/krayin_data/_data/packages/Webkul/Admin/src/Resources/lang/es/app.php https://raw.githubusercontent.com/oriondesign2015/SetupOrion/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
+  wget -O /var/lib/docker/volumes/krayin_data/_data/packages/Webkul/Admin/src/Resources/lang/es/app.php https://raw.githubusercontent.com/Teledoc2015/SetupTeledoc/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
   if [ $? -eq 0 ]; then
       echo "1/2 - [ OK ] - Traduzindo..."
   else
@@ -26493,7 +26493,7 @@ limpar() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Iniciando instalador
@@ -26535,7 +26535,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_chatwoot "$opcao2"
                 else
-                    APP_ORION="ferramenta_chatwoot"
+                    APP_Teledoc="ferramenta_chatwoot"
                     verificar_arquivo
                 fi
                 ## FIM TOKEN 
@@ -26549,7 +26549,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_evolution "$opcao2"
                 else
-                    APP_ORION="ferramenta_evolution"
+                    APP_Teledoc="ferramenta_evolution"
                     verificar_arquivo
                 fi
                 ## FIM TOKEN 
@@ -26566,7 +26566,7 @@ while true; do
         #       if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
         #           ferramenta_evolution_arm
         #       else
-        #           APP_ORION="ferramenta_evolution_arm"
+        #           APP_Teledoc="ferramenta_evolution_arm"
         #           verificar_arquivo
         #       fi
 
@@ -26584,7 +26584,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_minio "$opcao2"
                 else
-                    APP_ORION="ferramenta_minio"
+                    APP_Teledoc="ferramenta_minio"
                     verificar_arquivo
                 fi
 
@@ -26603,7 +26603,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_typebot "$opcao2"
                 else
-                    APP_ORION="ferramenta_typebot"
+                    APP_Teledoc="ferramenta_typebot"
                     verificar_arquivo
                 fi
 
@@ -26621,7 +26621,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_n8n "$opcao2"
                 else
-                    APP_ORION="ferramenta_n8n"
+                    APP_Teledoc="ferramenta_n8n"
                     verificar_arquivo
                 fi
 
@@ -26640,7 +26640,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_flowise "$opcao2"
                 else
-                    APP_ORION="ferramenta_flowise"
+                    APP_Teledoc="ferramenta_flowise"
                     verificar_arquivo
                 fi
 
@@ -26658,7 +26658,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_pgAdmin_4 "$opcao2"
                 else
-                    APP_ORION="ferramenta_pgAdmin_4"
+                    APP_Teledoc="ferramenta_pgAdmin_4"
                     verificar_arquivo
                 fi
 
@@ -26677,7 +26677,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_nocobase "$opcao2"
                 else
-                    APP_ORION="ferramenta_nocobase"
+                    APP_Teledoc="ferramenta_nocobase"
                     verificar_arquivo
                 fi
 
@@ -26696,7 +26696,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_botpress "$opcao2"
                 else
-                    APP_ORION="ferramenta_botpress"
+                    APP_Teledoc="ferramenta_botpress"
                     verificar_arquivo
                 fi
 
@@ -26713,7 +26713,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_wordpress
                 else
-                    APP_ORION="ferramenta_wordpress"
+                    APP_Teledoc="ferramenta_wordpress"
                     verificar_arquivo
                 fi
 
@@ -26731,7 +26731,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_baserow "$opcao2"
                 else
-                    APP_ORION="ferramenta_baserow" 
+                    APP_Teledoc="ferramenta_baserow" 
                     verificar_arquivo
                 fi
 
@@ -26750,7 +26750,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_mongodb "$opcao2"
                 else
-                    APP_ORION="ferramenta_mongodb"
+                    APP_Teledoc="ferramenta_mongodb"
                     verificar_arquivo
                 fi
 
@@ -26769,7 +26769,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_rabbitmq "$opcao2"
                 else
-                    APP_ORION="ferramenta_rabbitmq"
+                    APP_Teledoc="ferramenta_rabbitmq"
                     verificar_arquivo
                 fi
 
@@ -26788,7 +26788,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_uptimekuma "$opcao2"
                 else
-                    APP_ORION="ferramenta_uptimekuma"
+                    APP_Teledoc="ferramenta_uptimekuma"
                     verificar_arquivo
                 fi
 
@@ -26807,7 +26807,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_calcom "$opcao2"
                 else
-                    APP_ORION="ferramenta_calcom"
+                    APP_Teledoc="ferramenta_calcom"
                     verificar_arquivo
                 fi
 
@@ -26826,7 +26826,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_mautic "$opcao2"
                 else
-                    APP_ORION="ferramenta_mautic"
+                    APP_Teledoc="ferramenta_mautic"
                     verificar_arquivo
                 fi
 
@@ -26845,7 +26845,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_appsmith "$opcao2"
                 else
-                    APP_ORION="ferramenta_appsmith"
+                    APP_Teledoc="ferramenta_appsmith"
                     verificar_arquivo
                 fi
 
@@ -26864,7 +26864,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_qdrant "$opcao2"
                 else
-                    APP_ORION="ferramenta_qdrant"
+                    APP_Teledoc="ferramenta_qdrant"
                     verificar_arquivo
                 fi
 
@@ -26883,7 +26883,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_woofed "$opcao2"
                 else
-                    APP_ORION="ferramenta_woofed"
+                    APP_Teledoc="ferramenta_woofed"
                     verificar_arquivo
                 fi
 
@@ -26902,7 +26902,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_formbricks "$opcao2"
                 else
-                    APP_ORION="ferramenta_formbricks"
+                    APP_Teledoc="ferramenta_formbricks"
                     verificar_arquivo
                 fi
 
@@ -26921,7 +26921,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_nocodb "$opcao2"
                 else
-                    APP_ORION="ferramenta_nocodb"
+                    APP_Teledoc="ferramenta_nocodb"
                     verificar_arquivo
                 fi
 
@@ -26940,7 +26940,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_langfuse "$opcao2"
                 else
-                    APP_ORION="ferramenta_langfuse"
+                    APP_Teledoc="ferramenta_langfuse"
                     verificar_arquivo
                 fi
 
@@ -26959,7 +26959,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_metabase "$opcao2"
                 else
-                    APP_ORION="ferramenta_metabase"
+                    APP_Teledoc="ferramenta_metabase"
                     verificar_arquivo
                 fi
 
@@ -26978,7 +26978,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_odoo "$opcao2"
                 else
-                    APP_ORION="ferramenta_odoo"
+                    APP_Teledoc="ferramenta_odoo"
                     verificar_arquivo
                 fi
 
@@ -26997,7 +26997,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_chatwoot_nestor "$opcao2"
                 else
-                    APP_ORION="ferramenta_chatwoot_nestor"
+                    APP_Teledoc="ferramenta_chatwoot_nestor"
                     verificar_arquivo
                 fi
 
@@ -27016,7 +27016,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_unoapi "$opcao2"
                 else
-                    APP_ORION="ferramenta_unoapi"
+                    APP_Teledoc="ferramenta_unoapi"
                     verificar_arquivo
                 fi
 
@@ -27035,7 +27035,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_n8n_quepasa "$opcao2"
                 else
-                    APP_ORION="ferramenta_n8n_quepasa"
+                    APP_Teledoc="ferramenta_n8n_quepasa"
                     verificar_arquivo
                 fi
 
@@ -27054,7 +27054,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_quepasa "$opcao2"
                 else
-                    APP_ORION="ferramenta_quepasa"
+                    APP_Teledoc="ferramenta_quepasa"
                     verificar_arquivo
                 fi
 
@@ -27073,7 +27073,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_docuseal "$opcao2"
                 else
-                    APP_ORION="ferramenta_docuseal"
+                    APP_Teledoc="ferramenta_docuseal"
                     verificar_arquivo
                 fi
 
@@ -27092,7 +27092,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_monitor "$opcao2"
                 else
-                    APP_ORION="ferramenta_monitor"
+                    APP_Teledoc="ferramenta_monitor"
                     verificar_arquivo
                 fi
 
@@ -27111,7 +27111,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_dify "$opcao2"
                 else
-                    APP_ORION="ferramenta_dify"
+                    APP_Teledoc="ferramenta_dify"
                     verificar_arquivo
                 fi
 
@@ -27130,7 +27130,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_ollama "$opcao2"
                 else
-                    APP_ORION="ferramenta_ollama"
+                    APP_Teledoc="ferramenta_ollama"
                     verificar_arquivo
                 fi
 
@@ -27149,7 +27149,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_affine "$opcao2"
                 else
-                    APP_ORION="ferramenta_affine"
+                    APP_Teledoc="ferramenta_affine"
                     verificar_arquivo
                 fi
 
@@ -27168,7 +27168,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_directus "$opcao2"
                 else
-                    APP_ORION="ferramenta_directus"
+                    APP_Teledoc="ferramenta_directus"
                     verificar_arquivo
                 fi
 
@@ -27187,7 +27187,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_vaultwarden "$opcao2"
                 else
-                    APP_ORION="ferramenta_vaultwarden"
+                    APP_Teledoc="ferramenta_vaultwarden"
                     verificar_arquivo
                 fi
 
@@ -27206,7 +27206,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_nextcloud "$opcao2"
                 else
-                    APP_ORION="ferramenta_nextcloud"
+                    APP_Teledoc="ferramenta_nextcloud"
                     verificar_arquivo
                 fi
 
@@ -27224,7 +27224,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_strapi "$opcao2"
                 else
-                    APP_ORION="ferramenta_strapi"
+                    APP_Teledoc="ferramenta_strapi"
                     verificar_arquivo
                 fi
 
@@ -27243,7 +27243,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_phpmyadmin "$opcao2"
                 else
-                    APP_ORION="ferramenta_phpmyadmin"
+                    APP_Teledoc="ferramenta_phpmyadmin"
                     verificar_arquivo
                 fi
 
@@ -27262,7 +27262,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_supabase "$opcao2"
                 else
-                    APP_ORION="ferramenta_supabase"
+                    APP_Teledoc="ferramenta_supabase"
                     verificar_arquivo
                 fi
 
@@ -27281,7 +27281,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_ntfy "$opcao2"
                 else
-                    APP_ORION="ferramenta_ntfy"
+                    APP_Teledoc="ferramenta_ntfy"
                     verificar_arquivo
                 fi
 
@@ -27299,7 +27299,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_lowcoder "$opcao2"
                 else
-                    APP_ORION="ferramenta_lowcoder"
+                    APP_Teledoc="ferramenta_lowcoder"
                     verificar_arquivo
                 fi
 
@@ -27317,7 +27317,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_langflow "$opcao2"
                 else
-                    APP_ORION="ferramenta_langflow"
+                    APP_Teledoc="ferramenta_langflow"
                     ferramenta_langflow
                 fi
 
@@ -27335,7 +27335,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_openproject "$opcao2"
                 else
-                    APP_ORION="ferramenta_openproject"
+                    APP_Teledoc="ferramenta_openproject"
                     ferramenta_openproject
                 fi
 
@@ -27353,7 +27353,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_zep "$opcao2"
                 else
-                    APP_ORION="ferramenta_zep"
+                    APP_Teledoc="ferramenta_zep"
                     ferramenta_zep
                 fi
 
@@ -27371,7 +27371,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_humhub "$opcao2"
                 else
-                    APP_ORION="ferramenta_humhub"
+                    APP_Teledoc="ferramenta_humhub"
                     ferramenta_humhub
                 fi
 
@@ -27389,7 +27389,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_yourls "$opcao2"
                 else
-                    APP_ORION="ferramenta_yourls"
+                    APP_Teledoc="ferramenta_yourls"
                     ferramenta_yourls
                 fi
 
@@ -27408,7 +27408,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_twentycrm "$opcao2"
                 else
-                    APP_ORION="ferramenta_twentycrm"
+                    APP_Teledoc="ferramenta_twentycrm"
                     ferramenta_twentycrm
                 fi
 
@@ -27427,7 +27427,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_mattermost "$opcao2"
                 else
-                    APP_ORION="ferramenta_mattermost"
+                    APP_Teledoc="ferramenta_mattermost"
                     ferramenta_mattermost
                 fi
 
@@ -27446,7 +27446,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_outline "$opcao2"
                 else
-                    APP_ORION="ferramenta_outline"
+                    APP_Teledoc="ferramenta_outline"
                     ferramenta_outline
                 fi
 
@@ -27465,7 +27465,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_focalboard "$opcao2"
                 else
-                    APP_ORION="ferramenta_focalboard"
+                    APP_Teledoc="ferramenta_focalboard"
                     ferramenta_focalboard
                 fi
 
@@ -27484,7 +27484,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_glpi "$opcao2"
                 else
-                    APP_ORION="ferramenta_glpi"
+                    APP_Teledoc="ferramenta_glpi"
                     ferramenta_glpi
                 fi
 
@@ -27503,7 +27503,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_anythingllm "$opcao2"
                 else
-                    APP_ORION="ferramenta_anythingllm"
+                    APP_Teledoc="ferramenta_anythingllm"
                     ferramenta_anythingllm
                 fi
 
@@ -27522,7 +27522,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_excalidraw "$opcao2"
                 else
-                    APP_ORION="ferramenta_excalidraw"
+                    APP_Teledoc="ferramenta_excalidraw"
                     ferramenta_excalidraw
                 fi
 
@@ -27541,7 +27541,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_easyappointments "$opcao2"
                 else
-                    APP_ORION="ferramenta_easyappointments"
+                    APP_Teledoc="ferramenta_easyappointments"
                     ferramenta_easyappointments
                 fi
 
@@ -27560,7 +27560,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_documenso "$opcao2"
                 else
-                    APP_ORION="ferramenta_documenso"
+                    APP_Teledoc="ferramenta_documenso"
                     ferramenta_documenso
                 fi
 
@@ -27579,7 +27579,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_moodle "$opcao2"
                 else
-                    APP_ORION="ferramenta_moodle"
+                    APP_Teledoc="ferramenta_moodle"
                     ferramenta_moodle
                 fi
 
@@ -27598,7 +27598,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_tooljet "$opcao2"
                 else
-                    APP_ORION="ferramenta_tooljet"
+                    APP_Teledoc="ferramenta_tooljet"
                     ferramenta_tooljet
                 fi
 
@@ -27617,7 +27617,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_stirlingpdf "$opcao2"
                 else
-                    APP_ORION="ferramenta_stirlingpdf"
+                    APP_Teledoc="ferramenta_stirlingpdf"
                     ferramenta_stirlingpdf
                 fi
 
@@ -27636,7 +27636,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_clickhouse "$opcao2"
                 else
-                    APP_ORION="ferramenta_clickhouse"
+                    APP_Teledoc="ferramenta_clickhouse"
                     ferramenta_clickhouse
                 fi
 
@@ -27655,7 +27655,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_redisinsight "$opcao2"
                 else
-                    APP_ORION="ferramenta_redisinsight"
+                    APP_Teledoc="ferramenta_redisinsight"
                     ferramenta_redisinsight
                 fi
 
@@ -27674,7 +27674,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_traccar "$opcao2"
                 else
-                    APP_ORION="ferramenta_traccar"
+                    APP_Teledoc="ferramenta_traccar"
                     ferramenta_traccar
                 fi
 
@@ -27693,7 +27693,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_firecrawl "$opcao2"
                 else
-                    APP_ORION="ferramenta_firecrawl"
+                    APP_Teledoc="ferramenta_firecrawl"
                     ferramenta_firecrawl
                 fi
 
@@ -27712,7 +27712,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_wuzapi "$opcao2"
                 else
-                    APP_ORION="ferramenta_wuzapi"
+                    APP_Teledoc="ferramenta_wuzapi"
                     ferramenta_wuzapi
                 fi
 
@@ -27731,7 +27731,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_krayincrm "$opcao2"
                 else
-                    APP_ORION="ferramenta_krayincrm"
+                    APP_Teledoc="ferramenta_krayincrm"
                     ferramenta_krayincrm
                 fi
 
@@ -27757,7 +27757,7 @@ while true; do
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         postgres)
@@ -27770,7 +27770,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_postgres_setup "$opcao2"
                 else
-                    APP_ORION="ferramenta_postgres_setup"
+                    APP_Teledoc="ferramenta_postgres_setup"
                     ferramenta_postgres_setup
                 fi
 
@@ -27789,7 +27789,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_mysql_setup "$opcao2"
                 else
-                    APP_ORION="ferramenta_mysql_setup"
+                    APP_Teledoc="ferramenta_mysql_setup"
                     ferramenta_mysql_setup
                 fi
 
@@ -27808,7 +27808,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_redis_setup "$opcao2"
                 else
-                    APP_ORION="ferramenta_redis_setup"
+                    APP_Teledoc="ferramenta_redis_setup"
                     ferramenta_redis_setup
                 fi
 
@@ -27826,7 +27826,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_pgvector_setup "$opcao2"
                 else
-                    APP_ORION="ferramenta_pgvector_setup"
+                    APP_Teledoc="ferramenta_pgvector_setup"
                     ferramenta_pgvector_setup
                 fi
 
@@ -27837,7 +27837,7 @@ while true; do
             
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
         
         evolution.v1)
@@ -27850,7 +27850,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_evolution_v1 "$opcao2"
                 else
-                    APP_ORION="ferramenta_evolution_v1"
+                    APP_Teledoc="ferramenta_evolution_v1"
                     ferramenta_evolution_v1
                 fi
 
@@ -27869,7 +27869,7 @@ while true; do
                 if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
                     ferramenta_evolution_v2
                 else
-                    APP_ORION="ferramenta_evolution_v2"
+                    APP_Teledoc="ferramenta_evolution_v2"
                     ferramenta_evolution_v2
                 fi
 
@@ -27879,7 +27879,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         ## Reiniciar portainer
@@ -27956,7 +27956,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         Teledoc                                      ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
