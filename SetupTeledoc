@@ -6,7 +6,7 @@
 
 versao() {
 echo -e "                                   \e[97mVersão do SetupTeledoc: \e[32mv. 2.6.0\e[0m                                  "
-echo -e "\e[32mTeledoc.art.br/whatsapp1      \e[97m<----- Grupos no WhatsApp ----->     \e[32mTeledoc.art.br/whatsapp2\e[0m"
+echo -e "\e[32mteledocmedical.com/whatsapp1      \e[97m<----- Grupos no WhatsApp ----->     \e[32mteledocmedical.com/whatsapp2\e[0m"
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
@@ -129,13 +129,13 @@ creditos_msg() {
     echo -e "$amarelo=           $branco Gostaria de contribuir para continuarmos o desenvolvimento deste projeto?            $amarelo=\e[0m"
     echo -e "$amarelo=                              $branco Você pode fazer uma doação via PIX:                               $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
-    echo -e "$amarelo=                                     $amarelo pix@Teledoc.art.br                                     $amarelo=\e[0m"
+    echo -e "$amarelo=                                    $amarelo pix celualr 53999092711                                    $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
-    echo -e "$amarelo=          $branco Ou faça parte da nossa comunidade VIP no Discord e contribua com o projeto            $amarelo=\e[0m"
-    echo -e "$amarelo=                       $branco Nossa comunidade:$amarelo https://join.Teledoc.art.br                        $amarelo=\e[0m"
+    echo -e "$amarelo=          $branco                         contribua com o projeto            $amarelo=\e[0m"
+    echo -e "$amarelo=                       $branco Nosso Website:$amarelo https://teledocmedical.com                        $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
-    echo -e "$amarelo=                                   $branco Nossos grupos no WhatsApp                                    $amarelo=\e[0m"
-    echo -e "$amarelo=      $amarelo https://Teledoc.art.br/whatsapp1 $branco<-- ou -->$amarelo https://Teledoc.art.br/whatsapp2      $amarelo=\e[0m"
+    echo -e "$amarelo=                                          $branco Grupos                                                $amarelo=\e[0m"
+    echo -e "$amarelo=                                 $amarelo https://teledocmedical.com                                    $amarelo=\e[0m"
     echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -1816,7 +1816,7 @@ criar_arquivo() {
     nome_credenciais
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
     #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-    read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
+    read -p "Digite a Url do Portainer (ex: portainer.teledocmedical.com): " PORTAINER_URL
     echo ""
 
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1844,7 +1844,7 @@ verificar_campos() {
         nome_credenciais
         echo -e "\e[97mPasso$amarelo 1/3\e[0m"
         #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-        read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
+        read -p "Digite a Url do Portainer (ex: portainer.teledocmedical.com): " PORTAINER_URL
         echo ""
     
         echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1864,7 +1864,7 @@ verificar_campos() {
         nome_credenciais
         echo -e "\e[97mPasso$amarelo 1/3\e[0m"
         #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-        read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
+        read -p "Digite a Url do Portainer (ex: portainer.teledocmedical.com): " PORTAINER_URL
         echo ""
     
         echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1933,7 +1933,7 @@ verificar_token() {
                 nome_credenciais
                 echo -e "\e[97mPasso$amarelo 1/3\e[0m"
                 #echo -e "\e[97mObs: Coloque o https:// antes do link do portainer\e[0m"
-                read -p "Digite a Url do Portainer (ex: portainer.Teledoc.art.br): " PORTAINER_URL
+                read -p "Digite a Url do Portainer (ex: portainer.teledocmedical.com): " PORTAINER_URL
                 echo ""
             
                 echo -e "\e[97mPasso$amarelo 2/3\e[0m"
@@ -1976,7 +1976,7 @@ telemetria() {
   hora=$(date +"%H")
 
   ## Envia informação da Telemetria
-  curl "http://telemetria.Teledoc.art.br:3030/metry?ferramenta=$1&ip=$ip&data=$data&hora=$hora&status=$2" > /dev/null 2>&1
+  curl "http://telemetria.teledocmedical.com:3030/metry?ferramenta=$1&ip=$ip&data=$data&hora=$hora&status=$2" > /dev/null 2>&1
   #if [ $? -eq 0 ]; then
   #  echo "1/1 - [ OK ] - Telemetria"
   #else
@@ -2703,7 +2703,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Portainer (ex: portainer.Teledoc.art.br): \e[0m" && read -r url_portainer
+    echo -en "\e[33mDigite o Dominio para o Portainer (ex: portainer.teledocmedical.com): \e[0m" && read -r url_portainer
     echo ""
 
     ## Pergunta o Nome do Servidor
@@ -2821,7 +2821,7 @@ Link do Portainer: $url_portainer
 Obrigado por utilizar nosso AutoInstalador.
 Caso esse conteudo foi util, não deixe de apoiar nosso projeto.
 
-pix@Teledoc.art.br
+pix@teledocmedical.com
 
 Bebam água!
 EOL
@@ -4315,7 +4315,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot
+    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.teledocmedical.com): \e[0m" && read -r url_chatwoot
     echo ""
     
     ## Pega o nome do dominio para ser o nome da empresa
@@ -4874,7 +4874,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.teledocmedical.com): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -5275,7 +5275,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.teledocmedical.com): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -5603,7 +5603,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.Teledoc.art.br): \e[0m" && read -r url_evolution
+    echo -en "\e[33mDigite o Dominio para a Evolution API (ex: api.teledocmedical.com): \e[0m" && read -r url_evolution
     echo ""
 
     ## Limpa o terminal
@@ -6003,12 +6003,12 @@ while true; do
     
     ##Pergunta o Dominio do Minio
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o MinIO (ex: minio.Teledoc.art.br): \e[0m" && read -r url_minio
+    echo -en "\e[33mDigite o Dominio para o MinIO (ex: minio.teledocmedical.com): \e[0m" && read -r url_minio
     echo ""
     
     ##Pergunta o Dominio para o S3 do Minio
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Minio S3 (ex: s3.Teledoc.art.br): \e[0m" && read -r url_s3
+    echo -en "\e[33mDigite o Dominio para o Minio S3 (ex: s3.teledocmedical.com): \e[0m" && read -r url_s3
     echo ""
     
     ##Pergunta o Usuario para o Minio
@@ -6257,12 +6257,12 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Builder do Typebot (ex: typebot.Teledoc.art.br): \e[0m" && read -r url_typebot
+    echo -en "\e[33mDigite o Dominio para o Builder do Typebot (ex: typebot.teledocmedical.com): \e[0m" && read -r url_typebot
     echo ""
 
     ##Pergunta o Dominio do Viewer
     echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Viewer do Typebot (ex: bot.Teledoc.art.br): \e[0m" && read -r url_viewer
+    echo -en "\e[33mDigite o Dominio para o Viewer do Typebot (ex: bot.teledocmedical.com): \e[0m" && read -r url_viewer
     echo ""
 
     ##Pergunta a versão da ferramenta
@@ -6707,12 +6707,12 @@ while true; do
 
     ##Pergunta o Dominio do N8N
     echo -e "\e[97mPasso$amarelo 1/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_editorn8n
+    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.teledocmedical.com): \e[0m" && read -r url_editorn8n
     echo ""
     
     ##Pergunta o Dominio do Webhook
     echo -e "\e[97mPasso$amarelo 2/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhookn8n
+    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.teledocmedical.com): \e[0m" && read -r url_webhookn8n
     echo ""
 
     ##Pergunta o Email SMTP
@@ -7209,7 +7209,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Flowise (ex: flowise.Teledoc.art.br): \e[0m" && read -r url_flowise
+    echo -en "\e[33mDigite o dominio para o Flowise (ex: flowise.teledocmedical.com): \e[0m" && read -r url_flowise
     echo ""
     
     ##Pergunta o Usuario para a ferramenta
@@ -7469,7 +7469,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o PgAdmin 4 (ex: pgadmin.Teledoc.art.br): \e[0m" && read -r url_PgAdmin_4
+    echo -en "\e[33mDigite o dominio para o PgAdmin 4 (ex: pgadmin.teledocmedical.com): \e[0m" && read -r url_PgAdmin_4
     echo ""
     
     ##Pergunta o Email para a ferramenta
@@ -7695,7 +7695,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o dominio para o Nocobase (ex: nocobase.Teledoc.art.br): \e[0m" && read -r url_nocobase
+    echo -en "\e[33mDigite o dominio para o Nocobase (ex: nocobase.teledocmedical.com): \e[0m" && read -r url_nocobase
     echo ""
     
     ##Pergunta o Email para a ferramenta
@@ -7973,7 +7973,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Botpress (ex: botpress.Teledoc.art.br): \e[0m" && read -r url_botpress
+    echo -en "\e[33mDigite o dominio para o Botpress (ex: botpress.teledocmedical.com): \e[0m" && read -r url_botpress
     echo ""
     
     ## Limpa o terminal
@@ -8225,7 +8225,7 @@ while true; do
 
     ## Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Wordpress (ex: Teledoc.art.br ou loja.Teledoc.art.br): \e[0m" && read -r url_wordpress
+    echo -en "\e[33mDigite o dominio para o Wordpress (ex: teledocmedical.com ou loja.teledocmedical.com): \e[0m" && read -r url_wordpress
     echo ""
     
     ## Pergunta o nome do site
@@ -8560,7 +8560,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Baserow (ex: baserow.Teledoc.art.br): \e[0m" && read -r url_baserow
+    echo -en "\e[33mDigite o dominio para o Baserow (ex: baserow.teledocmedical.com): \e[0m" && read -r url_baserow
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -9098,7 +9098,7 @@ while true; do
 
     ## Pergunta o Dominio do RabbitMq
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o RabbitMQ (ex: rabbitmq.Teledoc.art.br): \e[0m" && read -r url_rabbitmq
+    echo -en "\e[33mDigite o dominio para o RabbitMQ (ex: rabbitmq.teledocmedical.com): \e[0m" && read -r url_rabbitmq
     echo ""
     
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
@@ -9333,7 +9333,7 @@ while true; do
 
     ## Pergunta o Dominio do uptime kuma
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Uptime Kuma (ex: uptimekuma.Teledoc.art.br): \e[0m" && read -r url_uptimekuma
+    echo -en "\e[33mDigite o dominio para o Uptime Kuma (ex: uptimekuma.teledocmedical.com): \e[0m" && read -r url_uptimekuma
     echo ""
     
     ## Limpa o terminal
@@ -9536,7 +9536,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Cal (ex: calcom.Teledoc.art.br): \e[0m" && read -r url_calcom
+    echo -en "\e[33mDigite o dominio para o Cal (ex: calcom.teledocmedical.com): \e[0m" && read -r url_calcom
     echo ""
     
     ## Pergunta o email SMTP
@@ -9848,7 +9848,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Mautic (ex: mautic.Teledoc.art.br): \e[0m" && read -r url_mautic
+    echo -en "\e[33mDigite o Dominio para o Mautic (ex: mautic.teledocmedical.com): \e[0m" && read -r url_mautic
     echo ""
 
     ## Pergunta o usuario da ferramenta
@@ -10242,7 +10242,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Appsmith (ex: appsmith.Teledoc.art.br): \e[0m" && read -r url_appsmith
+    echo -en "\e[33mDigite o dominio para o Appsmith (ex: appsmith.teledocmedical.com): \e[0m" && read -r url_appsmith
     echo ""
     
     ## Limpa o terminal
@@ -10455,7 +10455,7 @@ while true; do
     ## Pergunta o Dominio da ferramenta
     read -r ip _ <<<$(hostname -I)
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o ip da vps (seu ip: $ip) ou dominio para Qdrant (ex: qdrant.Teledoc.art.br): \e[0m" && read -r ip_vps
+    echo -en "\e[33mDigite o ip da vps (seu ip: $ip) ou dominio para Qdrant (ex: qdrant.teledocmedical.com): \e[0m" && read -r ip_vps
     echo ""
     
     ## Pergunta quandos nodes deseja
@@ -10683,7 +10683,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o WoofedCRM (ex: woofedcrm.Teledoc.art.br): \e[0m" && read -r url_woofed
+    echo -en "\e[33mDigite o Dominio para o WoofedCRM (ex: woofedcrm.teledocmedical.com): \e[0m" && read -r url_woofed
     echo ""
 
     ## Pergunta o nome do Usuario do Motor
@@ -11186,7 +11186,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Formbricks (ex: formbricks.Teledoc.art.br): \e[0m" && read -r url_formbricks
+    echo -en "\e[33mDigite o Dominio para o Formbricks (ex: formbricks.teledocmedical.com): \e[0m" && read -r url_formbricks
     echo ""
     
     ## Pergunta o Email SMTP
@@ -11349,7 +11349,7 @@ services:
       - DATABASE_URL=postgresql://postgres:$senha_pgvector@pgvector:5432/formbricks${1:+_$1}?schema=public
 
       ## Licença Enterprise ou Self-hosting
-      ## Solicitar licenta Self-hosting --> https://Teledoc.art.br/formbricks_licence/ <-- ##
+      ## Solicitar licenta Self-hosting --> https://teledocmedical.com/formbricks_licence/ <-- ##
       - ENTERPRISE_LICENSE_KEY=
 
       ## Keys aleatórias 32 caracteres
@@ -11529,7 +11529,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o NocoDB (ex: nocodb.Teledoc.art.br): \e[0m" && read -r url_nocodb
+    echo -en "\e[33mDigite o dominio para o NocoDB (ex: nocodb.teledocmedical.com): \e[0m" && read -r url_nocodb
     echo ""
     
     ## Limpa o terminal
@@ -11763,7 +11763,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Langfuse (ex: langfuse.Teledoc.art.br): \e[0m" && read -r url_langfuse
+    echo -en "\e[33mDigite o dominio para o Langfuse (ex: langfuse.teledocmedical.com): \e[0m" && read -r url_langfuse
     echo ""
     
     ## Limpa o terminal
@@ -12012,7 +12012,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Metabase (ex: metabase.Teledoc.art.br): \e[0m" && read -r url_metabase
+    echo -en "\e[33mDigite o dominio para o Metabase (ex: metabase.teledocmedical.com): \e[0m" && read -r url_metabase
     echo ""
     
     ## Limpa o terminal
@@ -12254,7 +12254,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Odoo (ex: odoo.Teledoc.art.br): \e[0m" && read -r url_odoo
+    echo -en "\e[33mDigite o dominio para o Odoo (ex: odoo.teledocmedical.com): \e[0m" && read -r url_odoo
     echo ""
     
     ## Limpa o terminal
@@ -12514,7 +12514,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot
+    echo -en "\e[33mDigite o Dominio para o Chatwoot (ex: chatwoot.teledocmedical.com): \e[0m" && read -r url_chatwoot
     echo ""
     
     ## Pega o nome do dominio para ser o nome da empresa
@@ -13053,12 +13053,12 @@ while true; do
 
     ##Pergunta o Dominio da UnoApi
     echo -e "\e[97mPasso$amarelo 1/11\e[0m"
-    echo -en "\e[33mDigite o Dominio para a Uno API (ex: unoapi.Teledoc.art.br): \e[0m" && read -r url_unoapi
+    echo -en "\e[33mDigite o Dominio para a Uno API (ex: unoapi.teledocmedical.com): \e[0m" && read -r url_unoapi
     echo ""
 
     ##Pergunta o Dominio do Chatwoot
     echo -e "\e[97mPasso$amarelo 2/11\e[0m"
-    echo -en "\e[33mDigite o Dominio do Chatwoot já instalado (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r url_chatwoot_uno
+    echo -en "\e[33mDigite o Dominio do Chatwoot já instalado (ex: chatwoot.teledocmedical.com): \e[0m" && read -r url_chatwoot_uno
     echo ""
 
     ##Pergunta o o token do usuario
@@ -13411,22 +13411,22 @@ while true; do
 
     ##Pergunta o Dominio do N8N
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_editorn8n
+    echo -en "\e[33mDigite o dominio para o N8N (ex: n8n.teledocmedical.com): \e[0m" && read -r url_editorn8n
     echo ""
     
     ##Pergunta o Dominio do Webhook
     echo -e "\e[97mPasso$amarelo 2/5\e[0m"
-    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhookn8n
+    echo -en "\e[33mDigite o dominio para o Webhook do N8N (ex: webhook.teledocmedical.com): \e[0m" && read -r url_webhookn8n
     echo ""
 
     ##Pergunta Dominio do Chatwoot
     echo -e "\e[97mPasso$amarelo 3/5\e[0m"
-    echo -en "\e[33mDigite o dominio do Chatwoot (ex: chatwoot.Teledoc.art.br): \e[0m" && read -r dominio_chatwoot
+    echo -en "\e[33mDigite o dominio do Chatwoot (ex: chatwoot.teledocmedical.com): \e[0m" && read -r dominio_chatwoot
     echo ""
 
     ##Pergunta Dominio do Quepasa
     echo -e "\e[97mPasso$amarelo 4/5\e[0m"
-    echo -en "\e[33mDigite o dominio do Quepasa (ex: quepasa.Teledoc.art.br): \e[0m" && read -r dominio_quepasa
+    echo -en "\e[33mDigite o dominio do Quepasa (ex: quepasa.teledocmedical.com): \e[0m" && read -r dominio_quepasa
     echo ""
 
     ##Pergunta Email do Quepasa
@@ -13949,7 +13949,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Quepasa (ex: quepasa.Teledoc.art.br): \e[0m" && read -r url_quepasa
+    echo -en "\e[33mDigite o dominio para o Quepasa (ex: quepasa.teledocmedical.com): \e[0m" && read -r url_quepasa
     echo ""
 
     ##Pergunta o email para a ferramenta
@@ -13959,12 +13959,12 @@ while true; do
 
     ##Pergunta o Dominio do Editor N8N Quepasa
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio do N8N Quepasa (ex: n8n.Teledoc.art.br): \e[0m" && read -r url_n8n
+    echo -en "\e[33mDigite o dominio do N8N Quepasa (ex: n8n.teledocmedical.com): \e[0m" && read -r url_n8n
     echo ""
 
     ##Pergunta o Dominio do webhook do N8N Quepasa
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio do Webhook N8N Quepasa (ex: webhook.Teledoc.art.br): \e[0m" && read -r url_webhook
+    echo -en "\e[33mDigite o dominio do Webhook N8N Quepasa (ex: webhook.teledocmedical.com): \e[0m" && read -r url_webhook
     echo ""
     
     ## Limpa o terminal
@@ -14258,7 +14258,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Docuseal (ex: docuseal.Teledoc.art.br): \e[0m" && read -r url_docuseal
+    echo -en "\e[33mDigite o dominio para o Docuseal (ex: docuseal.teledocmedical.com): \e[0m" && read -r url_docuseal
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -14557,22 +14557,22 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Grafana (ex: grafana.Teledoc.art.br): \e[0m" && read -r url_grafana
+    echo -en "\e[33mDigite o Dominio para o Grafana (ex: grafana.teledocmedical.com): \e[0m" && read -r url_grafana
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Prometheus (ex: prometheus.Teledoc.art.br): \e[0m" && read -r url_prometheus
+    echo -en "\e[33mDigite o Dominio para o Prometheus (ex: prometheus.teledocmedical.com): \e[0m" && read -r url_prometheus
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o cAdvisor (ex: cadvisor.Teledoc.art.br): \e[0m" && read -r url_cadvisor
+    echo -en "\e[33mDigite o Dominio para o cAdvisor (ex: cadvisor.teledocmedical.com): \e[0m" && read -r url_cadvisor
     echo ""
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 4/4\e[0m"
-    echo -en "\e[33mDigite o Dominio para o NodeExporter (ex: node.Teledoc.art.br): \e[0m" && read -r url_nodeexporter
+    echo -en "\e[33mDigite o Dominio para o NodeExporter (ex: node.teledocmedical.com): \e[0m" && read -r url_nodeexporter
     echo ""
 
     ## Limpa o terminal
@@ -15003,18 +15003,18 @@ while true; do
 
     ##Pergunta o Dominio do Dify AI
     echo -e "\e[97mPasso$amarelo 1/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o Dify AI (ex: dify.Teledoc.art.br): \e[0m" && read -r url_dify
+    echo -en "\e[33mDigite o dominio para o Dify AI (ex: dify.teledocmedical.com): \e[0m" && read -r url_dify
     echo ""
 
     ##Pergunta o Dominio do Dify AI
     echo -e "\e[97mPasso$amarelo 2/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o API do Dify AI (ex: api-dify.Teledoc.art.br): \e[0m" && read -r url_dify_api
+    echo -en "\e[33mDigite o dominio para o API do Dify AI (ex: api-dify.teledocmedical.com): \e[0m" && read -r url_dify_api
     echo ""
 
     ##Pergunta o Dominio do Qdrant
     #read -r ip _ <<<$(hostname -I)
     #echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    #echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip  ou http://qdrant.Teledoc.art.br): \e[0m" && read -r url_quedrant
+    #echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip  ou http://qdrant.teledocmedical.com): \e[0m" && read -r url_quedrant
     #echo ""
 
     ##Pergunta a Api Key do Qdrant
@@ -15617,12 +15617,12 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o WebUI Ollama (ex: ollama.Teledoc.art.br): \e[0m" && read -r url_ollama
+    echo -en "\e[33mDigite o dominio para o WebUI Ollama (ex: ollama.teledocmedical.com): \e[0m" && read -r url_ollama
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
-    echo -en "\e[33mDigite o dominio para a API Ollama (ex: apiollama.Teledoc.art.br): \e[0m" && read -r url_apiollama
+    echo -en "\e[33mDigite o dominio para a API Ollama (ex: apiollama.teledocmedical.com): \e[0m" && read -r url_apiollama
     echo ""
     
     ## Limpa o terminal
@@ -15865,7 +15865,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/7\e[0m"
-    echo -en "\e[33mDigite o dominio para o Affine (ex: affine.Teledoc.art.br): \e[0m" && read -r url_affine
+    echo -en "\e[33mDigite o dominio para o Affine (ex: affine.teledocmedical.com): \e[0m" && read -r url_affine
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -16202,7 +16202,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/9\e[0m"
-    echo -en "\e[33mDigite o dominio para o Directus (ex: directus.Teledoc.art.br): \e[0m" && read -r url_directus
+    echo -en "\e[33mDigite o dominio para o Directus (ex: directus.teledocmedical.com): \e[0m" && read -r url_directus
     echo ""
 
      ##Pergunta o Dominio para a ferramenta
@@ -16581,7 +16581,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o Dominio para o VaultWarden (ex: vaultwarden.Teledoc.art.br): \e[0m" && read -r url_vaultwarden
+    echo -en "\e[33mDigite o Dominio para o VaultWarden (ex: vaultwarden.teledocmedical.com): \e[0m" && read -r url_vaultwarden
     echo ""
     
     ## Pergunta o Email SMTP
@@ -16848,7 +16848,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o NextCloud (ex: nextcloud.Teledoc.art.br): \e[0m" && read -r url_nextcloud
+    echo -en "\e[33mDigite o dominio para o NextCloud (ex: nextcloud.teledocmedical.com): \e[0m" && read -r url_nextcloud
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -17160,7 +17160,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Strapi (ex: strapi.Teledoc.art.br): \e[0m" && read -r url_strapi
+    echo -en "\e[33mDigite o dominio para o Strapi (ex: strapi.teledocmedical.com): \e[0m" && read -r url_strapi
     echo ""
     
     ## Limpa o terminal
@@ -17439,7 +17439,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o PhpMyAdmin (ex: phpmyadmin.Teledoc.art.br): \e[0m" && read -r url_phpmyadmin
+    echo -en "\e[33mDigite o dominio para o PhpMyAdmin (ex: phpmyadmin.teledocmedical.com): \e[0m" && read -r url_phpmyadmin
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -17776,7 +17776,7 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/5\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Supabase (ex: supabase.Teledoc.art.br): \e[0m" && read -r url_supabase
+    echo -en "\e[33mDigite o Dominio para o Supabase (ex: supabase.teledocmedical.com): \e[0m" && read -r url_supabase
     echo ""
 
     ##Pergunta o Dominio do Viewer
@@ -18664,7 +18664,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Ntfy (ex: ntfy.Teledoc.art.br): \e[0m" && read -r url_ntfy
+    echo -en "\e[33mDigite o Dominio para o Ntfy (ex: ntfy.teledocmedical.com): \e[0m" && read -r url_ntfy
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -18912,7 +18912,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/8\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Lowcoder (ex: lowcoder.Teledoc.art.br): \e[0m" && read -r url_lowcoder
+    echo -en "\e[33mDigite o Dominio para o Lowcoder (ex: lowcoder.teledocmedical.com): \e[0m" && read -r url_lowcoder
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -19306,7 +19306,7 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para LangFlow (ex: langflow.Teledoc.art.br): \e[0m" && read -r url_langflow
+    echo -en "\e[33mDigite o Dominio para LangFlow (ex: langflow.teledocmedical.com): \e[0m" && read -r url_langflow
     echo ""
 
     ##Pergunta o Usuario para a ferramenta
@@ -19577,7 +19577,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o OpenProject (ex: openproject.Teledoc.art.br): \e[0m" && read -r url_openproject
+    echo -en "\e[33mDigite o dominio para o OpenProject (ex: openproject.teledocmedical.com): \e[0m" && read -r url_openproject
     echo ""
     
     ## Limpa o terminal
@@ -19849,7 +19849,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Zep (ex: zep.Teledoc.art.br): \e[0m" && read -r url_zep
+    echo -en "\e[33mDigite o Dominio para o Zep (ex: zep.teledocmedical.com): \e[0m" && read -r url_zep
     echo ""
 
     ## Pergunta o nome do Usuario do Motor
@@ -20145,7 +20145,7 @@ while true; do
 
     ## Pergunta o Dominio da ferramenta
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o Dominio para o HumHub (ex: humhub.Teledoc.art.br): \e[0m" && read -r url_humhub
+    echo -en "\e[33mDigite o Dominio para o HumHub (ex: humhub.teledocmedical.com): \e[0m" && read -r url_humhub
     echo ""
 
     ## Pergunta o usuario da ferramenta
@@ -20543,7 +20543,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Yourls (ex: yourls.Teledoc.art.br): \e[0m" && read -r url_yourls
+    echo -en "\e[33mDigite o dominio para o Yourls (ex: yourls.teledocmedical.com): \e[0m" && read -r url_yourls
     echo ""
     
     ##Pergunta o Dominio para a ferramenta
@@ -20785,7 +20785,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o TwentyCRM (ex: twentycrm.Teledoc.art.br): \e[0m" && read -r url_twentycrm
+    echo -en "\e[33mDigite o dominio para o TwentyCRM (ex: twentycrm.teledocmedical.com): \e[0m" && read -r url_twentycrm
     echo ""
 
     ## Pergunta o email SMTP
@@ -21118,7 +21118,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Mattermost (ex: mattermost.Teledoc.art.br): \e[0m" && read -r url_mattermost
+    echo -en "\e[33mDigite o dominio para o Mattermost (ex: mattermost.teledocmedical.com): \e[0m" && read -r url_mattermost
     echo ""
     
     ## Limpa o terminal
@@ -21367,7 +21367,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/4\e[0m"
-    echo -en "\e[33mDigite o dominio para o Outline (ex: outline.Teledoc.art.br): \e[0m" && read -r url_outline
+    echo -en "\e[33mDigite o dominio para o Outline (ex: outline.teledocmedical.com): \e[0m" && read -r url_outline
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -21689,7 +21689,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o FocalBoard (ex: focalboard.Teledoc.art.br): \e[0m" && read -r url_focalboard
+    echo -en "\e[33mDigite o dominio para o FocalBoard (ex: focalboard.teledocmedical.com): \e[0m" && read -r url_focalboard
     echo ""
     
     ## Limpa o terminal
@@ -21895,7 +21895,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o GLPI (ex: glpi.Teledoc.art.br): \e[0m" && read -r url_glpi
+    echo -en "\e[33mDigite o dominio para o GLPI (ex: glpi.teledocmedical.com): \e[0m" && read -r url_glpi
     echo ""
     
     ## Limpa o terminal
@@ -22135,13 +22135,13 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Anything LLM (ex: anythingllm.Teledoc.art.br): \e[0m" && read -r url_anythingllm
+    echo -en "\e[33mDigite o dominio para o Anything LLM (ex: anythingllm.teledocmedical.com): \e[0m" && read -r url_anythingllm
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
     read -r ip _ <<<$(hostname -I)
-    echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip:6333  ou http://qdrant.Teledoc.art.br:6333): \e[0m" && read -r qdrant_anythingllm
+    echo -en "\e[33mDigite o dominio do Qdrant (ex: http://$ip:6333  ou http://qdrant.teledocmedical.com:6333): \e[0m" && read -r qdrant_anythingllm
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -22376,7 +22376,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Excalidraw (ex: excalidraw.Teledoc.art.br): \e[0m" && read -r url_excalidraw
+    echo -en "\e[33mDigite o dominio para o Excalidraw (ex: excalidraw.teledocmedical.com): \e[0m" && read -r url_excalidraw
     echo ""
     
     ## Limpa o terminal
@@ -22591,7 +22591,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Easy!Appointments (ex: easyappointments.Teledoc.art.br): \e[0m" && read -r url_easyappointments
+    echo -en "\e[33mDigite o dominio para o Easy!Appointments (ex: easyappointments.teledocmedical.com): \e[0m" && read -r url_easyappointments
     echo ""
     
     ## Limpa o terminal
@@ -22851,7 +22851,7 @@ while true; do
 
     ##Pergunta o Dominio do Builder
     echo -e "\e[97mPasso$amarelo 1/8\e[0m"
-    echo -en "\e[33mDigite o Dominio para o Builder do Documenso (ex: documenso.Teledoc.art.br): \e[0m" && read -r url_documenso
+    echo -en "\e[33mDigite o Dominio para o Builder do Documenso (ex: documenso.teledocmedical.com): \e[0m" && read -r url_documenso
     echo ""
 
     ##Pergunta o Email SMTP
@@ -23059,7 +23059,7 @@ services:
       - PORT=3000
       - NEXTAUTH_URL=https://$url_documenso
       - NEXT_PUBLIC_WEBAPP_URL=https://$url_documenso
-      - NEXT_PUBLIC_MARKETING_URL=https://Teledoc.art.br
+      - NEXT_PUBLIC_MARKETING_URL=https://teledocmedical.com
 
       ## Secret Keys
       - NEXTAUTH_SECRET=$key_documenso1
@@ -23227,7 +23227,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/10\e[0m"
-    echo -en "\e[33mDigite o dominio para o Moodle (ex: moodle.Teledoc.art.br): \e[0m" && read -r url_moodle
+    echo -en "\e[33mDigite o dominio para o Moodle (ex: moodle.teledocmedical.com): \e[0m" && read -r url_moodle
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -23599,7 +23599,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o Dominio para a ToolJet (ex: tooljet.Teledoc.art.br): \e[0m" && read -r url_tooljet
+    echo -en "\e[33mDigite o Dominio para a ToolJet (ex: tooljet.teledocmedical.com): \e[0m" && read -r url_tooljet
     echo ""
 
     ##Pergunta o Email SMTP
@@ -23970,7 +23970,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o Stirling PDF (ex: stirlingpdf.Teledoc.art.br): \e[0m" && read -r url_stirlingpdf
+    echo -en "\e[33mDigite o dominio para o Stirling PDF (ex: stirlingpdf.teledocmedical.com): \e[0m" && read -r url_stirlingpdf
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -24218,7 +24218,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/3\e[0m"
-    echo -en "\e[33mDigite o dominio para o ClickHouse (ex: clickhouse.Teledoc.art.br): \e[0m" && read -r url_clickhouse
+    echo -en "\e[33mDigite o dominio para o ClickHouse (ex: clickhouse.teledocmedical.com): \e[0m" && read -r url_clickhouse
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -24456,7 +24456,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o RedisInsight (ex: redisinsight.Teledoc.art.br): \e[0m" && read -r url_redisinsight
+    echo -en "\e[33mDigite o dominio para o RedisInsight (ex: redisinsight.teledocmedical.com): \e[0m" && read -r url_redisinsight
     echo ""
     
     ## Limpa o terminal
@@ -24669,7 +24669,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Traccar (ex: traccar.Teledoc.art.br): \e[0m" && read -r url_traccar
+    echo -en "\e[33mDigite o dominio para o Traccar (ex: traccar.teledocmedical.com): \e[0m" && read -r url_traccar
     echo ""
     
     ## Limpa o terminal
@@ -24941,7 +24941,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/2\e[0m"
-    echo -en "\e[33mDigite o dominio para o Firecrawl (ex: firecrawl.Teledoc.art.br): \e[0m" && read -r url_firecrawl
+    echo -en "\e[33mDigite o dominio para o Firecrawl (ex: firecrawl.teledocmedical.com): \e[0m" && read -r url_firecrawl
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -25253,7 +25253,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
-    echo -en "\e[33mDigite o dominio para o Wuzapi (ex: wuzapi.Teledoc.art.br): \e[0m" && read -r url_wuzapi
+    echo -en "\e[33mDigite o dominio para o Wuzapi (ex: wuzapi.teledocmedical.com): \e[0m" && read -r url_wuzapi
     echo ""
     
     ## Limpa o terminal
@@ -25497,7 +25497,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 1/6\e[0m"
-    echo -en "\e[33mDigite o dominio para o Krayin CRM (ex: krayincrm.Teledoc.art.br): \e[0m" && read -r url_krayincrm
+    echo -en "\e[33mDigite o dominio para o Krayin CRM (ex: krayincrm.teledocmedical.com): \e[0m" && read -r url_krayincrm
     echo ""
 
     ##Pergunta o Email SMTP
